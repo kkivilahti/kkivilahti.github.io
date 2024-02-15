@@ -3,25 +3,29 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    background-color: beige;
+    background-color: #F8F3EE;
 } 
 
 h1 {
     font-family: "Playfair Display";
     font-size: 46px;
+    color: #222120;
 }
 
 h2 {
     font-family: "Playfair Display";
     font-size: 30px;
+    color: #222120;
 }
 
 h3 { 
     font-family: "Charmonman";
-    font-size: 46px;
+    font-size: 40px;
+    color: #222120;
 }
 
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
+    color: #8F6D51;
 }
