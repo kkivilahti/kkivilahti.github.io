@@ -7,20 +7,20 @@ body {
 } 
 
 h1 {
-    font-family: "Playfair Display";
+    font-family: "Charmonman";
     font-size: 46px;
     color: #222120;
 }
 
 h2 {
     font-family: "Playfair Display";
-    font-size: 30px;
+    font-size: 36px;
     color: #222120;
 }
 
 h3 { 
-    font-family: "Charmonman";
-    font-size: 40px;
+    font-family: "Playfair Display";
+    font-size: 26px;
     color: #222120;
 }
 
