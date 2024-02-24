@@ -41,7 +41,8 @@ p {
     /* The image used */
     background-image: url("front1.jpg");
   
-    min-height: 1030px;
+    min-height: 800px;
+    width: 100%; 
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -54,7 +55,7 @@ p {
   
   /* Position the navbar container inside the image */
   .container {
-    position: absolute;
+    position: right;
     margin: 20px;
     width: auto;
   }
@@ -62,7 +63,7 @@ p {
   /* The navbar */
   .topnav {
     overflow: hidden;
-    background-color: #8F6D51;
+    background-color: #f8f2ed;
     opacity: 0.7;
   }
   
@@ -73,11 +74,12 @@ p {
     text-align: center;
     padding: 14px 16px;
     font-family: "Open Sans", sans-serif;
+    text-decoration: none;
     font-size: 18px;
   }
   
   .topnav a:hover {
-    background-color: #f8f2ed;
-    color: #222120;
+    color: #f8f2ed;
+    background-color: #222120;
     opacity: 0.7;
   }
