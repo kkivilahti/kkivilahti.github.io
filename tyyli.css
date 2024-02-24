@@ -41,7 +41,6 @@ p {
     /* The image used */
     background-image: url("front1.jpg");
   
-    min-height: 800px;
     width: 100%; 
   
     /* Center and scale the image nicely */
@@ -56,7 +55,6 @@ p {
   /* Position the navbar container inside the image */
   .container {
     position: right;
-    margin: 20px;
     width: auto;
   }
   
@@ -64,7 +62,7 @@ p {
   .topnav {
     overflow: hidden;
     background-color: #f8f2ed;
-    opacity: 0.8;
+    opacity: 0.6;
   }
   
   /* Navbar links */
@@ -81,5 +79,5 @@ p {
   .topnav a:hover {
     color: #f8f2ed;
     background-color: #222120;
-    opacity: 0.8;
+    opacity: 0.6;
   }
