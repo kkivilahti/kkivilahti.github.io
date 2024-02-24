@@ -69,7 +69,7 @@ p {
   
   /* Navbar links */
   .topnav a {
-    float: right;
+    float: left;
     color: #222120;
     text-align: center;
     padding: 14px 16px;
