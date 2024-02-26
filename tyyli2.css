@@ -43,7 +43,7 @@ a:link {
     color: #8F6D51;
     background-color: transparent;
     text-decoration: none;
-    font-style: bold;
+    font-weight: bold;
     font-family: "Open Sans", sans-serif;
   }
   
@@ -51,12 +51,15 @@ a:link {
     color: #6d6c6b;
     background-color: transparent;
     text-decoration: none;
+    font-weight: bold;
     font-family: "Open Sans", sans-serif;
   }
   
   a:hover {
-    color: #5e442f;
+    color: #996134e1;
     background-color: transparent;
     text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
     font-family: "Open Sans", sans-serif;
   }
