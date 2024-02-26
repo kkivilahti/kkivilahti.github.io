@@ -54,9 +54,9 @@ a:visited {
 }
 
 a:hover {
-  color: #5e442f;
+  color: #996134e1;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: italic;
   font-family: "Open Sans", sans-serif;
 }
 
