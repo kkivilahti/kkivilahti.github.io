@@ -63,7 +63,7 @@ p {
   .topnav {
     overflow: hidden;
     background-color: #f8f2ed;
-    opacity: 0.6;
+    opacity: 0.8;
   }
   
   /* Navbar links */
@@ -80,5 +80,5 @@ p {
   .topnav a:hover {
     color: #f8f2ed;
     background-color: #222120;
-    opacity: 0.6;
+    opacity: 0.8;
   }
