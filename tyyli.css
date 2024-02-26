@@ -37,7 +37,21 @@ p {
     text-align: center;
 }
 
+a:link {
+  color: #8F6D51;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6d6c6b;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
 /* Etusivukuvan asetukset */
+
 .bg-img {
     /* The image used */
     background-image: url("front1.jpg");
@@ -94,9 +108,10 @@ p {
   }
 
   /* Kuvalinkin asetukset */
+  
   .container2 {
     position: relative;
-    width: 50%;
+    width: 35%;
   }
   
   .image {
