@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Charmonman);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background-color: #f8f2ed;
+} 
+
+h1 {
+    font-family: "Charmonman";
+    font-size: 56px;
+    color: #222120;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: #222120;
+    text-align: center;
+}
+
+h3 { 
+    font-family: "Playfair Display";
+    font-size: 26px;
+    letter-spacing: 4px;
+    color: #222120;
+    text-align: center;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #8F6D51;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
