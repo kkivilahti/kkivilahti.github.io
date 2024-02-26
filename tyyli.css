@@ -67,6 +67,13 @@ p {
     overflow: hidden;
     background-color: #f8f2ed;
     opacity: 0.8;
+    font-family: "Charmonman";
+    float: right;
+    color: #222120;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
   }
   
   /* Navbar links */
@@ -78,16 +85,6 @@ p {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     font-size: 18px;
-  }
-  
-  .topnav p1 {
-    float: right;
-    color: #222120;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: "Charmonman";
-    text-decoration: none;
-    font-size: 20px;
   }
   
   .topnav a:hover {
