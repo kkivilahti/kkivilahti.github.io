@@ -42,7 +42,7 @@ p {
     background-image: url("front1.jpg");
   
     width: 100%; 
-    min-height: 600px;
+    min-height: 800px;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -68,7 +68,7 @@ p {
   
   /* Navbar links */
   .topnav a {
-    float: left;
+    float: right;
     color: #222120;
     text-align: center;
     padding: 14px 16px;
