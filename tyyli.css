@@ -41,7 +41,7 @@ p {
     /* The image used */
     background-image: url("front2.jpg");
   
-    width: 105%; 
+    width: 100%; 
     min-height: 710px;
   
     /* Center and scale the image nicely */
@@ -68,7 +68,7 @@ p {
     background-color: #f8f2ed;
     opacity: 0.8;
     font-family: "Charmonman";
-    float: right;
+    float: left;
     color: #222120;
     text-align: center;
     padding: 14px 16px;
