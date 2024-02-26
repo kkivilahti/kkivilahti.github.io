@@ -48,6 +48,9 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
     
     /* Needed to position the navbar */
     position: relative;
