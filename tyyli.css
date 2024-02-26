@@ -37,6 +37,8 @@ p {
     text-align: center;
 }
 
+
+/* Linkkien tyylit */
 a:link {
   color: #8F6D51;
   background-color: transparent;
@@ -92,10 +94,11 @@ a:hover {
     opacity: 0.8;
     font-family: "Charmonman";
     color: #222120;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: left;
+    padding: 16px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: 10px;
   }
   
   /* Navbar links */
