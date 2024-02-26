@@ -41,15 +41,15 @@ p {
     /* The image used */
     background-image: url("front2.jpg");
   
-    width: 100%; 
+    width: 105%; 
     min-height: 710px;
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin-left: -10px;
-    margin-right: 0px;
+    margin-right: -50px;
     margin-top: -10px;
     
     /* Needed to position the navbar */
