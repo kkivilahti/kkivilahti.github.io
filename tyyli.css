@@ -108,7 +108,7 @@ a:visited {
   }
 
   /* Kuvalinkin asetukset */
-  
+
   .container2 {
     position: relative;
     width: 35%;
@@ -143,8 +143,9 @@ a:visited {
   }
   
   .text {
-    background-color: #222120;
-    color: white;
-    font-size: 16px;
+    background-color: #f8f2ed;
+    color: black;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
     padding: 16px 32px;
   }
