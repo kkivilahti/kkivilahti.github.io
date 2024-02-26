@@ -43,6 +43,7 @@ a:link {
   color: #8F6D51;
   background-color: transparent;
   text-decoration: none;
+  font-style: bold;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -50,13 +51,15 @@ a:visited {
   color: #6d6c6b;
   background-color: transparent;
   text-decoration: none;
+  font-style: bold;
   font-family: "Open Sans", sans-serif;
 }
 
 a:hover {
   color: #996134e1;
   background-color: transparent;
-  text-decoration: italic;
+  text-decoration: none;
+  font-style: bold, italic;
   font-family: "Open Sans", sans-serif;
 }
 
