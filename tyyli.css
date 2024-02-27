@@ -128,7 +128,16 @@ a:hover {
   }
 
   /* Kuvalinkin asetukset */
-  .container2, .container3, .container4 {
+  .container2 {
+    position: relative;
+    width: 30%;
+  }
+  .container3 {
+    position: relative;
+    width: 30%;
+  }
+
+   .container4 {
     position: relative;
     width: 30%;
   }
@@ -153,11 +162,25 @@ a:hover {
     text-align: center;
   }
   
-  .container2, .container3, .container4 :hover .image {
+  .container2:hover .image {
+    opacity: 0.3;
+  } 
+  .container3:hover .image {
+    opacity: 0.3;
+  }  
+  .container4:hover .image {
     opacity: 0.3;
   }
   
-  .container2, .container3, .container4 :hover .middle {
+  
+  
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  .container3:hover .middle {
+    opacity: 1;
+  }
+  .container4:hover .middle {
     opacity: 1;
   }
   
