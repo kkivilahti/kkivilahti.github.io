@@ -32,8 +32,8 @@ p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #8F6D51;
-    margin-right: 70px;
-    margin-left: 70px;
+    margin-right: 100px;
+    margin-left: 100px;
     text-align: center;
 }
 
@@ -130,7 +130,7 @@ a:hover {
   /* Kuvalinkin asetukset */
   .container2 {
     position: relative;
-    width: 35%;
+    width: 30%;
   }
   
   .image {
