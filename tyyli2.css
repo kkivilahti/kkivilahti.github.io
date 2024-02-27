@@ -7,24 +7,16 @@ body {
 } 
 
 h1 {
-    font-family: "Charmonman";
-    font-size: 56px;
-    color: #222120;
-    text-align: center;
-    margin-bottom: -20px;
-}
-
-h2 {
     font-family: "Playfair Display";
-    font-size: 35px;
+    font-size: 48px;
     letter-spacing: 4px;
     color: #222120;
     text-align: center;
 }
 
-h3 { 
+h2 {
     font-family: "Playfair Display";
-    font-size: 26px;
+    font-size: 35px;
     letter-spacing: 4px;
     color: #222120;
     text-align: center;
@@ -101,6 +93,7 @@ a:link {
   img {
     max-width: 100%;
     max-height:100%;
+    min-height: 710px;
     float: left;
   }
   
