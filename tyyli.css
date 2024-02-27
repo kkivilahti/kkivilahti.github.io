@@ -129,18 +129,16 @@ a:hover {
 
   /* Kuvalinkin asetukset */
   .container2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-grow: 1;
+    
+  }
+  .div1, .div2, .div3 {
     position: relative;
     width: 30%;
   }
-  .container3 {
-    position: relative;
-    width: 30%;
-  }
-   .container4 {
-    position: relative;
-    width: 30%;
-  }
-  
   .image {
     opacity: 1;
     display: block;
@@ -149,7 +147,6 @@ a:hover {
     transition: .5s ease;
     backface-visibility: hidden;
   }
-  
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -164,24 +161,11 @@ a:hover {
   .container2:hover .image {
     opacity: 0.3;
   } 
-  .container3:hover .image {
-    opacity: 0.3;
-  }  
-  .container4:hover .image {
-    opacity: 0.3;
-  }
-  
   
   .container2:hover .middle {
     opacity: 1;
   }
-  .container3:hover .middle {
-    opacity: 1;
-  }
-  .container4:hover .middle {
-    opacity: 1;
-  }
-  
+
   .text {
     background-color: #f8f2ed;
     color: black;
