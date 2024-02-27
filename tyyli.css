@@ -129,15 +129,15 @@ a:hover {
 
   /* Kuvalinkin asetukset */
   .container2 {
-    position: static;
+    position: relative;
     width: 30%;
   }
   .container3 {
-    position: static;
+    position: relative;
     width: 30%;
   }
    .container4 {
-    position: static;
+    position: relative;
     width: 30%;
   }
   
