@@ -135,31 +135,36 @@ a:hover {
 
   .image {
     opacity: 1;
-    display: block;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-around;
     width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    float: left;
   }
   .image1 {
     opacity: 1;
-    display: block;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
     width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    float: left;
   }
   .image2 {
     opacity: 1;
-    display: block;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
     width: 100%;
     height: auto;
-    float: left;
+    transition: .5s ease;
+    backface-visibility: hidden;
   }
 
   .middle {
