@@ -141,8 +141,7 @@ a:hover {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    left: 50%;
-    transform: translateX(-50%);
+    float: left;
   }
   .image1 {
     opacity: 1;
@@ -152,8 +151,7 @@ a:hover {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    right: -50%;
-    transform: translateX(50%);
+    float: left;
   }
   .image2 {
     opacity: 1;
@@ -161,8 +159,7 @@ a:hover {
     position: absolute;
     width: 100%;
     height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    float: left;
   }
 
   .middle {
