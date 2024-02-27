@@ -92,8 +92,8 @@ a:link {
   /* Kuvan asetukset */
   .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: start;
   }
   
   img {
