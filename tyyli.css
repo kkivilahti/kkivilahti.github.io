@@ -95,11 +95,11 @@ a:hover {
     font-family: "Charmonman";
     color: #222120;
     text-align: left;
-    padding: 16px 12px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
-    margin-top: 15px;
-    margin-bottom: -5px;
+    margin-top: 12px;
+    margin-bottom: -8px;
   }
   
   /* Navbar links */
