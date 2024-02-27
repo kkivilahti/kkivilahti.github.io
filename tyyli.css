@@ -131,15 +131,22 @@ a:hover {
   .container2 {
     position: relative;
     width: 30%;
+    float: left;
+    margin-left: 5px;
   }
   .container3 {
     position: relative;
     width: 30%;
+    float: center;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
    .container4 {
     position: relative;
     width: 30%;
+    float: right;
+    margin-right: 5px;
   }
   
   .image {
