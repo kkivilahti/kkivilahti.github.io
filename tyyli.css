@@ -133,7 +133,7 @@ a:hover {
     align-items: center;
     gap: 5px;
     flex-grow: 1;
-    
+    flex-direction: row;
   }
   .div1, .div2, .div3 {
     position: relative;
