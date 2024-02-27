@@ -11,7 +11,7 @@ h1 {
     font-size: 48px;
     letter-spacing: 4px;
     color: #222120;
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
@@ -19,16 +19,16 @@ h2 {
     font-size: 35px;
     letter-spacing: 4px;
     color: #222120;
-    text-align: center;
+    text-align: left;
 }
 
 p {
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #8F6D51;
     margin-right: 50px;
     margin-left: 50px;
-    text-align: center;
+    text-align: left;
 }
 
 /* Linkkien tyylit */
@@ -99,7 +99,7 @@ a:link {
   
   /* Kuvan viereinen teksti */
   .text {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 20px;
     padding-top: 60px;
     padding-right: 20px;
