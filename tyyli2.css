@@ -11,6 +11,7 @@ h1 {
     font-size: 56px;
     color: #222120;
     text-align: center;
+    margin-bottom: -20px;
 }
 
 h2 {
@@ -68,9 +69,10 @@ a:link {
     font-family: "Charmonman";
     color: #222120;
     text-align: left;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
     font-size: 24px;
+    margin-top: -10px;
   }
 
   .topnav a {
