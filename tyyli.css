@@ -204,10 +204,10 @@ a:hover {
     font-family: "Open Sans", sans-serif;
     color: #8F6D51;
     font-size: 14px;
-    position: absolute;
+    position: static;
     display: flex;
     justify-content: space-around;
-    padding: 10px 10px;
+    padding: 30px 10px;
     margin-top: 20px;
   }
   
