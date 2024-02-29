@@ -124,9 +124,9 @@ a:hover {
   /* Kuvalinkkien asetukset */
   .container-wrapper {
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: space-between 5px; /* Adjust as needed */
   }
-  
+
   .container2, .container3, .container4 {
     position: relative;
     width: 30%;
