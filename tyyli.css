@@ -45,7 +45,7 @@ hr {
 
 /* span tekstin asetukset */
 .nosto {
-  font-size: 22px;
+  font-size: 20px;
   color: #222120;
   font-weight: bold;
 }
@@ -157,7 +157,6 @@ a:hover {
     position: relative;
     width: 30%;
     float: left;
-    margin-right: 1%;
   }
 
   .image {
