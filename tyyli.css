@@ -3,44 +3,51 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    background-color: #f8f2ed;
+  background-color: #f8f2ed;
 } 
 
 h1 {
-    font-family: "Charmonman";
-    font-size: 90px;
-    color: #f8f2ed;
+  font-family: "Charmonman";
+  font-size: 90px;
+  color: #f8f2ed;
 }
 
 h2 {
-    font-family: "Playfair Display";
-    font-size: 44px;
-    letter-spacing: 4px;
-    color: #222120;
-    text-align: center;
+  font-family: "Playfair Display";
+  font-size: 44px;
+  letter-spacing: 4px;
+  color: #222120;
+  text-align: center;
 }
 
 h3 { 
-    font-family: "Playfair Display";
-    font-size: 30px;
-    letter-spacing: 4px;
-    color: #222120;
-    text-align: center;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: #222120;
+  text-align: center;
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    color: #8F6D51;
-    margin-right: 200px;
-    margin-left: 200px;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #8F6D51;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: center;
 }
 
 hr {
   border-top: 1px solid #a6a6a6;
   margin-right: 100px;
   margin-left: 100px;
+}
+
+/* span tekstin asetukset */
+.nosto {
+  font-size: 25px;
+  color: #222120;
+  font-style: "Playfair Display";
 }
 
 
@@ -68,18 +75,18 @@ a:hover {
 
 /* Etusivukuvan asetukset */
 .bg-img {
-    background-image: url("front3.jpg");
-    width: 101%; 
-    min-height: 710px;
+  background-image: url("front3.jpg");
+  width: 101%; 
+  min-height: 710px;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
 
-    position: relative;
+  position: relative;
   }
   
   /* Navin sijainti kuvan sisällä */
