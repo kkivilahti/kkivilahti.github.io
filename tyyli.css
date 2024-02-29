@@ -124,12 +124,11 @@ a:hover {
   /* Kuvalinkkien asetukset */
   .container-wrapper {
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
   }
 
   .container2, .container3, .container4 {
     position: relative;
-    width: calc(33.33% - 10px);
+    width: 30%;
     margin-right: 5px;
   }
 
