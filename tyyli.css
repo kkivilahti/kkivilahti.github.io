@@ -40,23 +40,23 @@ p {
 
 /* Linkkien tyylit */
 a:link {
-  color: #8F6D51;
+  color: #222120;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Open Sans", sans-serif;
 }
 
 a:visited {
   color: #6d6c6b;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Open Sans", sans-serif;
 }
 
 a:hover {
   color: #996134e1;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -198,11 +198,4 @@ a:hover {
     padding: 15px 15px;
     border-top: 1px solid #222120;
   }
-  .footer a {
-    color: #8F6D51;
-    text-decoration: underline;
-  }
-  .footer a:hover {
-    color: black;
-    text-decoration: underline;
-  }
+  
