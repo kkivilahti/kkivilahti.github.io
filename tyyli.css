@@ -142,14 +142,12 @@ a:hover {
 
   .container2 {
     position: relative;
-    display: inline-block;
     width: 30%;
     float: left;
     margin-right: 1%;
   }
   .container3 {
     position: relative;
-    display: inline-block;
     width: 30%;
     float: left;
     margin-right: 1%;
@@ -157,7 +155,6 @@ a:hover {
   }
   .container4 {
     position: relative;
-    display: inline-block;
     width: 30%;
     float: right;
     margin-right: 0;
