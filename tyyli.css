@@ -193,7 +193,8 @@ a:hover {
     font-size: 14px;
     display: flex;
     justify-content: space-around;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-top: 1px solid #222120;
+    margin-top: 20px;
   }
   
