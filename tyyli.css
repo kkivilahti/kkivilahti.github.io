@@ -171,3 +171,13 @@ a:hover {
     font-family: "Open Sans", sans-serif;
     padding: 16px 32px;
   }
+  
+  .footer {
+    font-family: "Open Sans", sans-serif;
+    color: #8F6D51;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
