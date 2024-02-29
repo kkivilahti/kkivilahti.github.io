@@ -63,7 +63,7 @@ a:hover {
 /* Etusivukuvan asetukset */
 .bg-img {
     background-image: url("front3.jpg");
-    width: 102%; 
+    width: 101%; 
     min-height: 710px;
 
     background-position: center;
