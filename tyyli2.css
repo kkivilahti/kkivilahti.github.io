@@ -34,25 +34,25 @@ p {
 
 /* Linkkien tyylit */
 a:link {
-    color: #8F6D51;
-    background-color: transparent;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  a:visited {
-    color: #6d6c6b;
-    background-color: transparent;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  a:hover {
-    color: #996134e1;
-    background-color: transparent;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-  }
+  color: #222120;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:visited {
+  color: #6d6c6b;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+  color: #996134e1;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+}
 
   /* Navigointi */
   .topnav {
