@@ -137,7 +137,7 @@ a:hover {
   /* Kuvalinkkien asetukset */
   .container-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .container2 {
