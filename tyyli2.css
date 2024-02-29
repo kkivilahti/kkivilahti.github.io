@@ -107,6 +107,7 @@ a:hover {
     float: left;
     margin-left: 50px;
     margin-top: 50px;
+    border: 2px solid #8F6D51;
   }
   
   /* Kuvan viereinen teksti */
