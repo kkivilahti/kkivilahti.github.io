@@ -103,13 +103,13 @@ a:hover {
   img {
     width: auto;
     max-width: 100%;
-    min-width: 300px;
+    min-width: 333px;
     height: auto;
     max-height: 100%;
-    min-height: 520px;
+    min-height: 500px;
     margin-left: 5%; /* Adjust margin for smaller screens */
     margin-right: 5%; /* Adjust margin for smaller screens */
-    margin-top: 2%; /* Adjust margin for smaller screens */
+    margin-top: 10%; /* Adjust margin for smaller screens */
     border: 5px solid #222120;
     border-radius: 30px;
   }
