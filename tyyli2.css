@@ -57,22 +57,22 @@ a:hover {
   /* Navigointi */
   .topnav {
     overflow: hidden;
-    background-color: #f8f2ed;
+    background-color: #8F6D51;
     opacity: 0.8;
     font-family: "Charmonman";
-    color: #222120;
+    color: white;
     text-align: left;
     padding: 12px 12px;
     text-decoration: none;
     font-size: 24px;
-    border-bottom: 1px solid #a6a6a6;
+    border-bottom: 1px solid #222120;
     margin-top: 12px;
     margin-bottom: -12px;
   }
 
   .topnav a {
     float: right;
-    color: #222120;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     font-family: "Open Sans", sans-serif;
@@ -81,14 +81,14 @@ a:hover {
   }
   
   .topnav a:hover {
-    color: #f8f2ed;
-    background-color: #222120;
+    color: #222120;
+    background-color: #f8f2ed;
     opacity: 0.8;
   }
 
   #valittu {
-    color: #f8f2ed;
-    background-color: #222120;
+    color: #222120;
+    background-color: #f8f2ed;
     opacity: 0.8;
   }
 
