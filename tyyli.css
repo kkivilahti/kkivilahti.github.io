@@ -137,28 +137,35 @@ a:hover {
   /* Kuvalinkkien asetukset */
   .container-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
-  .container2 {
-    position: relative;
-    width: 30%;
-    float: left;
-    margin-left: 1%;
-  }
-  .container3 {
-    position: relative;
-    width: 30%;
-    float: left;
-    margin-right: 2%;
-    margin-left: 2%;
-  }
+  .container2,
+  .container3,
   .container4 {
     position: relative;
-    width: 30%;
-    float: left;
+    width: calc(33.33% - 2%); 
+    margin: 1%; 
   }
 
+  @media screen and (max-width: 768px) {
+    .container2,
+    .container3,
+    .container4 {
+      width: calc(50% - 2%);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .container2,
+    .container3,
+    .container4 {
+      width: 100%; /* Full width on smaller screens */
+      margin: 0 0 20px 0; /* Add some margin at the bottom */
+    }
+  }
+  
   .image {
     opacity: 1;
     display: block;
