@@ -11,7 +11,7 @@ h1 {
     font-size: 45px;
     letter-spacing: 4px;
     color: #222120;
-    text-align: left;
+    text-align: center;
     margin-left: 30px;
 }
 
@@ -20,16 +20,16 @@ h2 {
     font-size: 35px;
     letter-spacing: 4px;
     color: #222120;
-    text-align: left;
+    text-align: center;
 }
 
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: #8F6D51;
-    margin-right: 50px;
-    margin-left: 30px;
-    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
 }
 
 /* Linkkien tyylit */
