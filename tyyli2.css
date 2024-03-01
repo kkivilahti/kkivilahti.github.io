@@ -128,6 +128,7 @@ a:hover {
       display: flex;
       flex-direction: column; /* Change flex direction to column for smaller screens */
       align-items: center; /* Center items on smaller screens */
+      clear:left;
     }
   
     img {
