@@ -102,11 +102,13 @@ a:hover {
   
   img {
     width: auto;
-    max-height:100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
     min-height: 520px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 5%; /* Adjust margin for smaller screens */
+    margin-right: 5%; /* Adjust margin for smaller screens */
+    margin-top: 2%; /* Adjust margin for smaller screens */
     border: 5px solid #222120;
     border-radius: 30px;
   }
@@ -115,9 +117,28 @@ a:hover {
   .text {
     font-size: 16px;
     padding-left: 20px;
-    padding-top: 60px;
+    padding-top: 2%; /* Adjust padding for smaller screens */
     padding-right: 20px;
-    float: right;
+    text-align: center; /* Center the text on smaller screens */
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Change flex direction to column for smaller screens */
+      align-items: center; /* Center items on smaller screens */
+    }
+  
+    img {
+      width: 80%; /* Adjust image width for smaller screens */
+      margin-left: 0; /* Remove left margin on smaller screens */
+      margin-right: 0; /* Remove right margin on smaller screens */
+      margin-top: 5%; /* Adjust margin for smaller screens */
+    }
+  
+    .text {
+      padding-top: 5%; /* Adjust padding for smaller screens */
+      text-align: center; /* Center the text on smaller screens */
+    }
   }
 
   .footer {
