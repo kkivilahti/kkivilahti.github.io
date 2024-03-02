@@ -89,8 +89,8 @@ a:hover {
   
   /* Navin sijainti kuvan sisällä */
   .container {
-    position: right;
-    width: auto;
+    position: relative; /* Change position to relative */
+    width: 100%; /* Set width to 100% */
   }
   
   /* Navigointi */
@@ -116,6 +116,7 @@ a:hover {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     font-size: 18px;
+    display: block;
   }
   
   .topnav a:hover {
@@ -131,6 +132,22 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   }
+  
+  @media only screen and (max-width: 768px) {
+    .bg-img {
+      min-height: 768px; /* Adjust min-height for smaller devices */
+    }
+  
+    .topnav {
+      font-size: 16px; /* Decrease font size for smaller devices */
+      padding: 10px; /* Adjust padding for smaller devices */
+    }
+  
+    .centered {
+      font-size: 18px; /* Adjust font size for smaller devices */
+    }
+  }
+
 
   /* Kuvalinkkien asetukset */
   .container-wrapper {
