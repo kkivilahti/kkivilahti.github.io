@@ -128,11 +128,11 @@ a:hover {
   /* Tekstin asettelu etusivun kuvassa */
   .centered {
   position: absolute;
-  top: 75%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
-  
+
   @media only screen and (max-width: 768px) {
     .bg-img {
       min-height: 768px; /* Adjust min-height for smaller devices */
