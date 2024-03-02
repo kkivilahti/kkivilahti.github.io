@@ -75,7 +75,7 @@ a:hover {
 
 /* Etusivukuvan asetukset */
 .bg-img {
-  background-image: url("front3.jpg");
+  background-image: url("front.jpg");
   width: 100%; 
   min-height: 1024px;
 
@@ -159,8 +159,8 @@ a:hover {
     .container2,
     .container3,
     .container4 {
-      width: 100%; /* Full width on smaller screens */
-      margin: 0 0 20px 0; /* Add some margin at the bottom */
+      width: 100%; 
+      margin: 0 0 20px 0; 
     }
   }
 
