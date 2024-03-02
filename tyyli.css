@@ -75,7 +75,7 @@ a:hover {
 
 /* Etusivukuvan asetukset */
 .bg-img {
-  background-image: url("front.jpg");
+  background-image: url("front3.jpg");
   width: 100%; 
   min-height: 710px;
 
@@ -149,7 +149,7 @@ a:hover {
     }
     h1 {
       font-family: "Charmonman";
-      font-size: 50px;
+      font-size: 40px;
       color: #f8f2ed;
     }
     h2 {
