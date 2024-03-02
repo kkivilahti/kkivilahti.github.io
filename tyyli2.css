@@ -130,7 +130,7 @@ a:hover {
   }
   img {
     max-width: 90%; /* Adjusting the width for better responsiveness */
-    min-width: 760px; /* Adjusting the minimum width for smaller devices */
+    min-width: 750px; /* Adjusting the minimum width for smaller devices */
     max-height: auto; /* Allowing the height to adjust proportionally */
     margin: 5% 0; /* Adjusting the margin */
     border: 5px solid #222120;
