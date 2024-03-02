@@ -97,8 +97,8 @@ a:hover {
   /* Kuvan asetukset */
   .container {
     display: flex;
-    align-items: center; /* Align items in the center vertically */
-    justify-content: center; /* Center items horizontally */
+    align-items: center; 
+    justify-content: left; 
     flex-direction: row;
   }
   
