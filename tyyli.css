@@ -128,23 +128,38 @@ a:hover {
   /* Tekstin asettelu etusivun kuvassa */
   .centered {
   position: absolute;
-  top: 50%;
+  top: calc(66.66% - 50%);
   left: 50%;
   transform: translate(-50%, -50%);
   }
 
   @media only screen and (max-width: 768px) {
     .bg-img {
-      min-height: 768px; /* Adjust min-height for smaller devices */
+      background-image: url("frontmobile.jpg");
+      min-height: 640px; /* Adjust min-height for smaller devices */
     }
-  
     .topnav {
-      font-size: 16px; /* Decrease font size for smaller devices */
+      font-size: 15px; /* Decrease font size for smaller devices */
       padding: 10px; /* Adjust padding for smaller devices */
     }
-  
+    .topnav a {
+      font-size: 15px;
+    }
     .centered {
       font-size: 18px; /* Adjust font size for smaller devices */
+    }
+    h1 {
+      font-family: "Charmonman";
+      font-size: 50px;
+      color: #f8f2ed;
+      text-align:center;
+    }
+    h2 {
+      font-family: "Playfair Display";
+      font-size: 30px;
+      letter-spacing: 4px;
+      color: #222120;
+      text-align: center;
     }
   }
 
