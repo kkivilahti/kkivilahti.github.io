@@ -97,43 +97,54 @@ a:hover {
   /* Kuvan asetukset */
   .container {
     display: flex;
-    align-items: left;
-    justify-content: start;
+    align-items: center; /* Align items in the center vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-direction: row;
   }
   
   img {
     max-width: 100%;
-    min-width: 333px;
+    min-width: auto;
     max-height: 100%;
-    min-height: 500px;
+    min-height: 900px;
     margin-left: 5%; 
     margin-right: 5%; 
     margin-top: 15%; 
     border: 5px solid #222120;
     border-radius: 30px;
-    float: left;
   }
   
   /* Kuvan viereinen teksti */
   .text {
     font-size: 16px;
-    padding-left: 20px;
-    padding-top: 40px; 
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 50px; 
+    padding-right: 50px;
     text-align: center; 
   }
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container {
      flex-direction: column; /* Stack elements vertically */
      align-items: center; /* Center items horizontally */
-    }
-  
-  img {
-    margin: 5% auto; /* Center image horizontally */
-    float: none; /* Remove float */
-    }
   }
+  img {
+    max-width: 90%; /* Adjusting the width for better responsiveness */
+    min-width: 280px; /* Adjusting the minimum width for smaller devices */
+    max-height: auto; /* Allowing the height to adjust proportionally */
+    margin: 5% 0; /* Adjusting the margin */
+    border: 5px solid #222120;
+    border-radius: 30px;
+  }
+  .text {
+    font-size: 16px;
+    padding: 20px; /* Simplifying padding for all sides */
+    text-align: center; 
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
 
   .footer {
     font-family: "Open Sans", sans-serif;
