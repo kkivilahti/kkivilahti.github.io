@@ -89,8 +89,8 @@ a:hover {
   
   /* Navin sijainti kuvan sisällä */
   .container {
-    position: relative; /* Change position to relative */
-    width: 100%; /* Set width to 100% */
+    position: right; 
+    width: auto; 
   }
   
   /* Navigointi */
