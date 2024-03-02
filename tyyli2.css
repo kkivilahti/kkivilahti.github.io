@@ -98,7 +98,7 @@ a:hover {
   .container {
     display: flex;
     align-items: center; 
-    justify-content: left; 
+    justify-content: start; 
     flex-direction: row;
   }
   
@@ -125,20 +125,20 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
   .container {
-     flex-direction: column; /* Stack elements vertically */
-     align-items: center; /* Center items horizontally */
+     flex-direction: column; 
+     align-items: center; 
   }
   img {
-    max-width: 90%; /* Adjusting the width for better responsiveness */
-    min-width: 750px; /* Adjusting the minimum width for smaller devices */
-    max-height: auto; /* Allowing the height to adjust proportionally */
-    margin: 5% 0; /* Adjusting the margin */
+    max-width: 90%; 
+    min-width: 750px; 
+    max-height: auto; 
+    margin: 5% 0; 
     border: 5px solid #222120;
     border-radius: 30px;
   }
   .text {
     font-size: 16px;
-    padding: 20px; /* Simplifying padding for all sides */
+    padding: 20px;
     text-align: center; 
   }
   h1 {
