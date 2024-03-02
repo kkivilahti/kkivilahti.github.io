@@ -128,7 +128,7 @@ a:hover {
   /* Tekstin asettelu etusivun kuvassa */
   .centered {
   position: absolute;
-  top: calc(66.66% - 50%);
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
@@ -136,7 +136,7 @@ a:hover {
   @media only screen and (max-width: 768px) {
     .bg-img {
       background-image: url("frontmobile.jpg");
-      min-height: 640px; /* Adjust min-height for smaller devices */
+      min-height: 580px; /* Adjust min-height for smaller devices */
     }
     .topnav {
       font-size: 15px; /* Decrease font size for smaller devices */
