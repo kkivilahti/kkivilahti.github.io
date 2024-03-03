@@ -106,21 +106,8 @@ a:hover {
     display: table;
   }
 
-  .column2 {
-    float: left;
-    width: 25%;
-    padding: 5px;
-    margin-top: 10px;
-  }
-  .row2::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   .text {
     float: right;
-    
   }
 
 .footer {
