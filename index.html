@@ -15,6 +15,7 @@
     <div class="bg-img">
         <div class="container">
           <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
             Kahvila Kanelipuu
             
             <a href="yhteystiedot.html">Yhteystiedot</a>
@@ -22,16 +23,7 @@
             <a href="tuotteet.html">Tuotteet</a>
             <a href="meista.html">Meistä</a>
             <a href="index.html">Etusivu</a>
-            <div class="dropdown">
-              <a href="#">☰</a>
-              <div class="dropdown-content">
-                <a href="yhteystiedot.html">Yhteystiedot</a>
-                <a href="brunssi.html">Brunssi</a>
-                <a href="tuotteet.html">Tuotteet</a>
-                <a href="meista.html">Meistä</a>
-                <a href="index.html">Etusivu</a>
-              </div>
-
+          </div>
           <div class="centered">
             <h1>Kahvila Kanelipuu</h1>
         </div>
@@ -98,4 +90,15 @@
           <br>Copyright &copy; Kirsi Kivilahti, 2024</p>
       </div>
     </footer>
- </html>
+      
+    <script>
+      /* JavaScript to toggle responsive class for mobile navigation */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script> </html>
