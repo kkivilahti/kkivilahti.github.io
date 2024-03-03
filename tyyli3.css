@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Charmonman);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background-color: #f8f2ed;
+} 
+
+h1 {
+    font-family: "Playfair Display";
+    font-size: 45px;
+    letter-spacing: 4px;
+    color: #222120;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: #222120;
+    text-align: center;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #8F6D51;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+/* Linkkien tyylit */
+a:link {
+  color: #222120;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:visited {
+  color: #6d6c6b;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+  color: #996134e1;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+  /* Navigointi */
+  .topnav {
+    overflow: hidden;
+    background-color: #f8f2ed;
+    opacity: 0.8;
+    font-family: "Charmonman";
+    color: black;
+    text-align: left;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 24px;
+    border-bottom: 1px solid #939393;
+    margin-top: 12px;
+    margin-bottom: -12px;
+  }
+
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .topnav a:hover {
+    color: #f8f2ed;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  #valittu {
+    color: #f8f2ed;
+    background-color: black;
+    opacity: 0.8;
+  }
+  
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  font-family: "Open Sans", sans-serif;
+  color: #8F6D51;
+  font-size: 14px;
+  position: static;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
