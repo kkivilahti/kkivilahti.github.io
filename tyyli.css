@@ -196,7 +196,7 @@ a:hover {
     padding: 30px 10px;
   }
 
-  /* pöytäkone */
+  /* iso näyttö */
   @media only screen and (min-width: 1200px) {
     .bg-img {
       height: 950px;
