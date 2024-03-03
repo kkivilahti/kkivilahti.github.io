@@ -204,6 +204,12 @@ a:hover {
     h1 {
       font-size: 130px;
     }
+    .centered {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
     
   }
   
@@ -217,6 +223,12 @@ a:hover {
     }
     h2 {
       font-size: 35px;
+    }
+    .centered {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
    
