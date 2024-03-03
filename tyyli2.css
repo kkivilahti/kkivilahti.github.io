@@ -105,16 +105,16 @@ a:hover {
     min-width: 400px;
     min-height: auto;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 15%;
     border: 5px solid #222120;
     float: left;
   }
    
    .text {
      font-size: 18px;
-     padding-left: 10%;
+     padding-left: 5%;
      padding-right: 10%;
-     padding-top: 5%;
+     padding-top: 10%;
      float: left;
    }
 
