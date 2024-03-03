@@ -56,7 +56,7 @@ a:hover {
 }
 
   .bg-img {
-    background-image: url("front.jpg");
+    background-image: url("meista.jpg");
     width: 100%; 
     min-height: 710px;
   
@@ -102,6 +102,12 @@ a:hover {
     .topnav a:hover {
       color: #f8f2ed;
       background-color: #222120;
+      opacity: 0.8;
+    }
+
+    #valittu {
+      color: #f8f2ed;
+      background-color: black;
       opacity: 0.8;
     }
   
