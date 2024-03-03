@@ -262,7 +262,7 @@ a:hover {
       transform: translate(-50%, -50%);
       }
     .topnav a {
-        display: none; /* Hide the links by default */
+        display: none; 
       }
   
     .topnav a.icon {
