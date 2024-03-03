@@ -217,7 +217,6 @@ a:hover {
     .bg-img {
       height: 950px;
     }
-
     h1 {
       font-family: "Charmonman";
       font-size: 100px;
@@ -245,7 +244,7 @@ a:hover {
   @media only screen and (max-width: 600px) {
     .bg-img {
       background-image: url("frontmobile.jpg");
-      height: 580px; 
+      height: 450px; 
     }
     .topnav {
       font-size: 15px;
