@@ -75,7 +75,7 @@ a:hover {
 
 /* Etusivukuvan asetukset */
 .bg-img {
-  background-image: url("front3.jpg");
+  background-image: url("front.jpg");
   width: 100%; 
   min-height: 710px;
 
