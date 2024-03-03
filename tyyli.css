@@ -147,23 +147,6 @@ a:hover {
     margin: 1%; 
   }
 
-  @media screen and (max-width: 768px) {
-    .container2,
-    .container3,
-    .container4 {
-      width: calc(50% - 2%);
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .container2,
-    .container3,
-    .container4 {
-      width: 100%; 
-      margin: 0 0 20px 0; 
-    }
-  }
-
   .image {
     opacity: 1;
     display: block;
@@ -229,11 +212,9 @@ a:hover {
     .bg-img {
       height: 600px;
     }
-    
     h1 {
       font-size: 65px;
     }
-
     h2 {
       font-size: 35px;
     }
@@ -258,6 +239,17 @@ a:hover {
     }
     h2 {
       font-size: 30px;
+    }
+    .container2,
+    .container3,
+    .container4 {
+      width: calc(50% - 2%);
+    }
+    .container2,
+    .container3,
+    .container4 {
+      width: 100%; 
+      margin: 0 0 20px 0; 
     }
   }
 
