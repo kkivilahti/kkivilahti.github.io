@@ -126,7 +126,7 @@ a:hover {
   /* Tekstin asettelu etusivun kuvassa */
   .centered {
   position: absolute;
-  top: 90%;
+  top: 82%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
@@ -205,7 +205,7 @@ a:hover {
     }
     .centered {
       position: absolute;
-      top: 90%;
+      top: 82%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
@@ -225,7 +225,7 @@ a:hover {
     }
     .centered {
       position: absolute;
-      top: 80%;
+      top: 82%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
