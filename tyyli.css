@@ -213,10 +213,16 @@ a:hover {
       height: 600px;
     }
     h1 {
-      font-size: 70px;
+      font-size: 65px;
     }
     h2 {
       font-size: 35px;
+    }
+    .centered {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     
   }
