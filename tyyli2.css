@@ -159,6 +159,9 @@ a:hover {
     float: none;
     text-align: left;
   }
+h1 {
+    font-size: 35px;
+  }
 }
 
 
