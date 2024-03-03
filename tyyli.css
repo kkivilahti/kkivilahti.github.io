@@ -199,12 +199,10 @@ a:hover {
   /* iso näyttö */
   @media only screen and (min-width: 1200px) {
     .bg-img {
-      height: 950px;
+      min-height: 950px;
     }
     h1 {
-      font-family: "Charmonman";
       font-size: 100px;
-      color: #f8f2ed;
     }
     
   }
