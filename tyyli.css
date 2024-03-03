@@ -132,36 +132,6 @@ a:hover {
   transform: translate(-50%, -50%);
   }
 
-  @media only screen and (max-width: 768px) {
-    .bg-img {
-      background-image: url("frontmobile.jpg");
-      min-height: 580px; /* Adjust min-height for smaller devices */
-    }
-    .topnav {
-      font-size: 15px; /* Decrease font size for smaller devices */
-      padding: 10px; /* Adjust padding for smaller devices */
-    }
-    .topnav a {
-      font-size: 15px;
-    }
-    .centered {
-      font-size: 18px; /* Adjust font size for smaller devices */
-    }
-    h1 {
-      font-family: "Charmonman";
-      font-size: 56px;
-      color: #f8f2ed;
-    }
-    h2 {
-      font-family: "Playfair Display";
-      font-size: 30px;
-      letter-spacing: 4px;
-      color: #222120;
-      text-align: center;
-    }
-  }
-
-
   /* Kuvalinkkien asetukset */
   .container-wrapper {
     display: flex;
@@ -242,4 +212,56 @@ a:hover {
     justify-content: space-around;
     padding: 30px 10px;
   }
+
+  @media only screen and (min-width: 1200px) {
+    .bg-img {
+      height: 950px;
+    }
+
+    h1 {
+      font-family: "Charmonman";
+      font-size: 100px;
+      color: #f8f2ed;
+    }
+    
+  }
+   
+ @media only screen and (min-width: 600px) {
+    .bg-img {
+      height: 600px;
+    }
+    
+    h1 {
+      font-size: 65px;
+    }
+
+    h2 {
+      font-size: 35px;
+    }
+    
+  }
+   
+
+  @media only screen and (max-width: 600px) {
+    .bg-img {
+      background-image: url("frontmobile.jpg");
+      height: 580px; 
+    }
+    .topnav {
+      font-size: 15px;
+      padding: 10px;
+    }
+    .topnav a {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 56px;
+    }
+    h2 {
+      font-size: 30px;
+      letter-spacing: 4px;
+      text-align: center;
+    }
+  }
+
   
