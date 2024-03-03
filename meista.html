@@ -9,15 +9,23 @@
 </head>
 
 <body>
-    <div class="topnav">
+  <div class="bg-img">
+    <div class="container">
+      <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
         Kahvila Kanelipuu
         
         <a href="yhteystiedot.html">Yhteystiedot</a>
         <a href="brunssi.html">Brunssi</a>
         <a href="tuotteet.html">Tuotteet</a>
-        <a href="meista.html" id="valittu">Meistä</a>
+        <a href="meista.html">Meistä</a>
         <a href="index.html">Etusivu</a>
       </div>
+      <div class="centered">
+        <h1>otsikko</h1>
+    </div>
+    </div>
+  </div>
 
 
         <h1>Miten Kahvila Kanelipuu sai alkunsa</h1>
@@ -47,4 +55,16 @@
         <br>Copyright &copy; Kirsi Kivilahti, 2024</p>
     </div>
   </footer>
+
+<script>
+    /* JavaScript to toggle responsive class for mobile navigation */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    } 
+</script> 
 </html>
