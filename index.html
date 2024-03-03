@@ -14,7 +14,8 @@
 <body>
     <div class="bg-img">
         <div class="container">
-          <div class="topnav">
+          <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
             Kahvila Kanelipuu
             
             <a href="yhteystiedot.html">Yhteystiedot</a>
@@ -92,3 +93,14 @@
 
     </html>
       
+    <script>
+      /* JavaScript to toggle responsive class for mobile navigation */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
