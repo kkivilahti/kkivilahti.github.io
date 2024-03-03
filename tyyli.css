@@ -88,8 +88,7 @@ a:hover {
   }
   
   /* Navin sijainti kuvan sisällä */
-  .container {
-    position: right; 
+  .container { 
     width: auto; 
   }
   
