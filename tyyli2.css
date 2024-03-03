@@ -119,29 +119,48 @@ a:hover {
     transform: translate(-50%, -50%);
     }
 
+@media only screen and (min-width: 1200px) {
+  .bg-img {
+      min-height: 900px;
+    }
+  }
+
+@media only screen and (min-width: 600px) {
+    .bg-img {
+      height: 600px;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+  }
 
 @media only screen and (max-width: 600px) {
-  .container {
-    display: flex;
-    align-items: stretch;
+  .bg-img {
+    width: 450px;
   }
-  img {
-    min-width: 550px; 
-    max-height: auto; 
-    margin: 5%; 
-    border: 5px solid #222120;
-    width: 100%;
+  .topnav a {
+    display: none;
   }
-  .text {
-    font-size: 16px;
-    padding: 10%;
-    text-align: center; 
-    width: 100%;
+
+.topnav a.icon {
+    float: right;
+    display: block;
   }
-  h1 {
-    font-size: 30px;
+
+.topnav.responsive {
+    position: relative;
+  }
+
+.topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
   }
 }
+
 
   .footer {
     font-family: "Open Sans", sans-serif;
