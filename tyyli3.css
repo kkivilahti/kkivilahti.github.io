@@ -146,8 +146,21 @@ a:hover {
       .bg-img {
         width: 450px;
       }
-      .topnav a {
+      .topnav {
         display: none;
+      }
+      .topnav input:checked ~ .topnav { display: block;}
+      
+      .topnav a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #222120;
+      }
+      .topnav label {
+        display: inline-block;
+        color: #222120;
+        font-size: 14px;
       }
     
       
