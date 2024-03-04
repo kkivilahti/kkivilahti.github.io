@@ -197,92 +197,92 @@ a:hover {
 
   /* iso näyttö */
   @media only screen and (min-width: 1200px) {
-    .bg-img {
-      min-height: 900px;
-    }
-    h1 {
-      font-size: 130px;
-    }
-    .centered {
-      position: absolute;
-      top: 82%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .icon {
-      display: none;
-    }
+  .bg-img {
+    min-height: 900px;
+  }
+  h1 {
+    font-size: 130px;
+  }
+  .centered {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .icon {
+    display: none;
+  }
     
   }
   
 /* tabletti */
  @media only screen and (min-width: 600px) {
-    .bg-img {
-      height: 600px;
-    }
-    h1 {
-      font-size: 70px;
-    }
-    h2 {
-      font-size: 35px;
-    }
-    .centered {
-      position: absolute;
-      top: 82%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .icon {
-      display: none;
-    }
+  .bg-img {
+    height: 600px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .centered {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .icon {
+    display: none;
+  }
   }
    
 /* mobiili */
   @media only screen and (max-width: 600px) {
-    .bg-img {
-      background-image: url("frontmobile2.jpg");
-      height: 450px; 
-    }
+  .bg-img {
+    background-image: url("frontmobile2.jpg");
+    height: 450px; 
+  }
     
-    h1 {
-      font-size: 60px;
-    }
-    h2 {
-      font-size: 30px;
-    }
-    .container2,
-    .container3,
-    .container4 {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .container2,
+  .container3,
+  .container4 {
       width: calc(50% - 2%);
-    }
-    .container2,
-    .container3,
-    .container4 {
+  }
+  .container2,
+  .container3,
+  .container4 {
       width: 100%; 
       margin: 0 0 20px 0; 
-    }
-    .centered {
-      display: none;
-      }
-    .topnav a {
-        display: none; 
-      }
+  }
+  .centered {
+    display: none;
+  }
+  .topnav a {
+    display: none; 
+  }
   
-    .topnav a.icon {
-        float: right;
-        display: block;
-      }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
   
-    .topnav.responsive {
-        position: relative;
-      }
+  .topnav.responsive {
+    position: relative;
+  }
   
-    .topnav.responsive a {
-        display: block;
-        float: none;
-        text-align: left;
-      }
-    }
+  .topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  }
     
   
 

@@ -3,34 +3,34 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    background-color: #f8f2ed;
+  background-color: #f8f2ed;
 } 
 
 h1 {
-    font-family: "Playfair Display";
-    font-size: 45px;
-    letter-spacing: 4px;
-    color: #222120;
-    text-align: center;
-    margin-left: 30px;
-    margin-top: 30px;
+  font-family: "Playfair Display";
+  font-size: 45px;
+  letter-spacing: 4px;
+  color: #222120;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 h2 {
-    font-family: "Playfair Display";
-    font-size: 35px;
-    letter-spacing: 4px;
-    color: #222120;
-    text-align: center;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  letter-spacing: 4px;
+  color: #222120;
+  text-align: center;
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    color: #8F6D51;
-    margin-right: 15%;
-    margin-left: 15%;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #8F6D51;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: center;
 }
 
 /* Linkkien tyylit */
@@ -55,69 +55,69 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 
-  .bg-img {
-    background-image: url("meista.jpg");
-    width: 100%; 
-    min-height: 710px;
+.bg-img {
+  background-image: url("meista.jpg");
+  width: 100%; 
+  min-height: 710px;
   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
     
-    /* Navin sijainti kuvan sisällä */
-    .container {
-      position: right; 
-      width: auto; 
-    }
+  /* Navin sijainti kuvan sisällä */
+  .container {
+    position: right; 
+    width: auto; 
+  }
     
-    /* Navigointi */
-    .topnav {
-      overflow: hidden;
-      background-color: #f8f2ed;
-      opacity: 0.8;
-      font-family: "Charmonman";
-      color: #222120;
-      text-align: left;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 24px;
-      margin-top: 12px;
-      margin-bottom: -12px;
-    }
+  /* Navigointi */
+  .topnav {
+    overflow: hidden;
+    background-color: #f8f2ed;
+    opacity: 0.8;
+    font-family: "Charmonman";
+    color: #222120;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: -12px;
+  }
     
-    .topnav a {
-      float: right;
-      color: #222120;
-      text-align: center;
-      padding: 14px 16px;
-      font-family: "Open Sans", sans-serif;
-      text-decoration: none;
-      font-size: 18px;
-    }
+  .topnav a {
+    float: right;
+    color: #222120;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+  }
     
-    .topnav a:hover {
+  .topnav a:hover {
       color: #f8f2ed;
       background-color: #222120;
       opacity: 0.8;
-    }
+  }
 
-    #valittu {
+  #valittu {
       color: #f8f2ed;
       background-color: black;
       opacity: 0.8;
-    }
+  }
   
-    /* Tekstin asettelu etusivun kuvassa */
-    .centered {
+  /* Tekstin asettelu etusivun kuvassa */
+  .centered {
     position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    }
+  }
 
 @media only screen and (min-width: 1200px) {
   .bg-img {
@@ -132,51 +132,55 @@ a:hover {
   }
 
 @media only screen and (min-width: 600px) {
-    .bg-img {
+  .bg-img {
       height: 600px;
-    }
+  }
     h1 {
       font-size: 50px;
-    }
-    .icon {
+  }
+  .icon {
       display: none;
-    }
+  }
   }
 
 @media only screen and (max-width: 600px) {
-  .bg-img {
+.bg-img {
     height: 450px;
-  }
+}
 .topnav a {
     display: none;
-  }
+}
 
 .topnav a.icon {
     float: right;
     display: block;
-  }
+}
 
 .topnav.responsive {
     position: relative;
-  }
+}
 
 .topnav.responsive a {
     display: block;
     float: none;
     text-align: left;
-  }
+}
 h1 {
     font-size: 30px;
-  }
+}
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 }
 
 
-  .footer {
-    font-family: "Open Sans", sans-serif;
-    color: #8F6D51;
-    font-size: 14px;
-    position: static;
-    display: flex;
-    justify-content: space-around;
-    padding: 30px 10px;
-  }
+.footer {
+  font-family: "Open Sans", sans-serif;
+  color: #8F6D51;
+  font-size: 14px;
+  position: static;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+}

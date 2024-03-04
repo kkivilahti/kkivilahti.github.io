@@ -121,27 +121,27 @@ a:hover {
 
 
     @media only screen and (min-width: 1200px) {
-      .bg-img {
+    .bg-img {
           min-height: 900px;
-        }
-      h1 {
+    }
+    h1 {
         font-size: 50px;
-      }
-      .icon {
+    }
+    .icon {
         display: none;
-      }
+    }
     }
     
     @media only screen and (min-width: 600px) {
-        .bg-img {
+    .bg-img {
           height: 600px;
-        }
-        h1 {
+    }
+    h1 {
           font-size: 50px;
-        }
-        .icon {
+    }
+    .icon {
           display: none;
-        }
+    }
       }
     
     @media only screen and (max-width: 600px) {
