@@ -98,8 +98,6 @@ a:hover {
       font-family: "Open Sans", sans-serif;
       text-decoration: none;
       font-size: 18px;
-      flex-grow: 1;
-      flex-basis: 0;
     }
     
     .topnav a:hover {
@@ -150,7 +148,7 @@ a:hover {
         display: none;
       }
       .topnav input:checked ~ .topnav { display: block;}
-      
+
       .topnav a {
         box-sizing: border-box;
         display: block;
