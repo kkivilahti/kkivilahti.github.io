@@ -138,6 +138,12 @@ a:hover {
     opacity: 0.8;
   }
 
+  #valittu {
+    color: #f8f2ed;
+    background-color: black;
+    opacity: 0.8;
+ }
+
   /* Tekstin asettelu etusivun kuvassa */
   .centered {
   position: absolute;
