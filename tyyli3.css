@@ -87,6 +87,7 @@ a:hover {
       font-size: 24px;
       margin-top: 12px;
       margin-bottom: -12px;
+      display: flex;
     }
     
     .topnav a {
@@ -97,6 +98,8 @@ a:hover {
       font-family: "Open Sans", sans-serif;
       text-decoration: none;
       font-size: 18px;
+      flex-grow: 1;
+      flex-basis: 0;
     }
     
     .topnav a:hover {
@@ -104,7 +107,9 @@ a:hover {
       background-color: #222120;
       opacity: 0.8;
     }
-
+    .topnav label, .hamburger {
+      display: none;
+    }
     #valittu {
       color: #f8f2ed;
       background-color: black;
@@ -137,7 +142,7 @@ a:hover {
  
       }
     
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       .bg-img {
         width: 450px;
       }
@@ -145,20 +150,7 @@ a:hover {
         display: none;
       }
     
-    .topnav a.icon {
-        float: right;
-        display: block;
-      }
-    
-    .topnav.responsive {
-        position: relative;
-      }
-    
-    .topnav.responsive a {
-        display: block;
-        float: none;
-        text-align: left;
-      }
+      
     h1 {
       font-size: 30px;
     }
