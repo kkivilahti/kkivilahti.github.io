@@ -209,6 +209,9 @@ a:hover {
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    .icon {
+      display: none;
+    }
     
   }
   
@@ -228,6 +231,9 @@ a:hover {
       top: 82%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+    .icon {
+      display: none;
     }
   }
    
