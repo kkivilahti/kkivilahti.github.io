@@ -14,7 +14,9 @@
         <div class="bg-img">
           <div class="container">
             <div class="topnav" id="myTopnav">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+              <label for="hamburger">&#9776;</label>
+              <input type="checkbox" id="hamburger"/>
+              <div id="items">
               Kahvila Kanelipuu
               
               <a href="yhteystiedot.html">Yhteystiedot</a>
@@ -25,6 +27,7 @@
             </div>
           </div>
         </div>
+      </div>
       
 
     <h1>Tuotteet</h1>
@@ -39,16 +42,6 @@
         <br>Copyright &copy; Kirsi Kivilahti, 2024</p>
     </div>
   </footer>
-  <script>
-    /* JavaScript to toggle responsive class for mobile navigation */
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    } 
-</script>
+
 </body>
 </html>
