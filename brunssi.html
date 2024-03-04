@@ -5,26 +5,33 @@
 <meta name="googlebot" content="noindex">
 <meta name="viewport" content="height=device-height, initial-scale=1">
 <meta charset="UTF-8">
-    <link rel="stylesheet" href="tyyli2.css">
-    <title>Kahvila Kanelipuu - Aloita viikonloppu maittavalla brunssilla</title>
+    <link rel="stylesheet" href="tyyli3.css">
+    <title>Kahvila Kanelipuu - Ensiluokkaista kahvia ja tuoreita leivonnaisia</title>
 </head>
 
 <body>
-    <div class="topnav">
-        Kahvila Kanelipuu
-        
-        <a href="yhteystiedot.html">Yhteystiedot</a>
-        <a href="brunssi.html" id="valittu">Brunssi</a>
-        <a href="tuotteet.html">Tuotteet</a>
-        <a href="meista.html">Meistä</a>
-        <a href="index.html">Etusivu</a>
+    <body>
+      <div class="bg-img">
+        <div class="container">
+          <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+            Kahvila Kanelipuu
+            
+            <a href="yhteystiedot.html">Yhteystiedot</a>
+            <a href="brunssi.html" id="valittu">Brunssi</a>
+            <a href="tuotteet.html">Tuotteet</a>
+            <a href="meista.html">Meistä</a>
+            <a href="index.html">Etusivu</a>
+          </div>
+        </div>
       </div>
+      
 
-        <h1>Brunssi</h1>
-        <p>Esittely
-        <br>
+    <h1>Tuotteet</h1>
+    <p>Esittely
     </p>
-</body>
+
+
 <footer>
     <div><br><br><hr>
       <p>Ota yhteyttä <a href="mailto:kanelipuu@gmail.com">sähköpostilla</a> tai
@@ -32,3 +39,13 @@
         <br>Copyright &copy; Kirsi Kivilahti, 2024</p>
     </div>
   </footer>
+ <script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  } </script> 
+</body>
+</html>
