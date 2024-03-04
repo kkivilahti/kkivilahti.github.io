@@ -87,7 +87,6 @@ a:hover {
       font-size: 24px;
       margin-top: 12px;
       margin-bottom: -12px;
-      display: flex;
     }
     
     .topnav a {
@@ -105,9 +104,7 @@ a:hover {
       background-color: #222120;
       opacity: 0.8;
     }
-    .topnav label, .hamburger {
-      display: none;
-    }
+
     #valittu {
       color: #f8f2ed;
       background-color: black;
@@ -126,8 +123,10 @@ a:hover {
     @media only screen and (min-width: 1200px) {
       .bg-img {
           min-height: 900px;
-          font-size: 50px;
         }
+      h1 {
+        font-size: 50px;
+      }
       }
     
     @media only screen and (min-width: 600px) {
@@ -137,35 +136,35 @@ a:hover {
         h1 {
           font-size: 50px;
         }
- 
       }
     
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       .bg-img {
-        width: 450px;
+        height: 450px;
       }
-      .items{
+    .topnav a {
         display: none;
       }
-      .topnav input:checked ~ .items { display: block;}
-
-      .items a {
-        box-sizing: border-box;
+    
+    .topnav a.icon {
+        float: right;
         display: block;
-        width: 100%;
-        border-top: 1px solid #222120;
-      }
-      .topnav label {
-        display: inline-block;
-        color: #222120;
-        font-size: 14px;
       }
     
-      
+    .topnav.responsive {
+        position: relative;
+      }
+    
+    .topnav.responsive a {
+        display: block;
+        float: none;
+        text-align: left;
+      }
     h1 {
-      font-size: 30px;
+        font-size: 30px;
+      }
     }
-    }
+    
 
   .footer {
     font-family: "Open Sans", sans-serif;
