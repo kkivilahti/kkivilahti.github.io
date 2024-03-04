@@ -240,7 +240,7 @@ a:hover {
 /* mobiili */
   @media only screen and (max-width: 600px) {
     .bg-img {
-      background-image: url("frontmobile.jpg");
+      background-image: url("frontmobile2.jpg");
       height: 450px; 
     }
     
