@@ -11,7 +11,10 @@
 </head>
 
 <body>
-    <div class="topnav">
+  <div class="bg-img">
+    <div class="container">
+      <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
         Kahvila Kanelipuu
         
         <a href="yhteystiedot.html" id="valittu">Yhteystiedot</a>
@@ -20,10 +23,13 @@
         <a href="meista.html">Meistä</a>
         <a href="index.html">Etusivu</a>
       </div>
+    </div>
+  </div>
+
     <h1>Yhteystiedot</h1>
     <p>Esittely
     </p>
-</body>
+
 
 <footer>
     <div><br><br><hr>
@@ -32,3 +38,13 @@
         <br>Copyright &copy; Kirsi Kivilahti, 2024</p>
     </div>
   </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    } </script> 
+    </body></html>
