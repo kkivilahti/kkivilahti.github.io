@@ -56,7 +56,7 @@ a:hover {
 }
 
   .bg-img {
-    background-image: url("brunssi1.jpg");
+    background-image: url("brunssi4.jpg");
     width: 100%; 
     min-height: 710px;
   
@@ -145,30 +145,34 @@ a:hover {
       }
     
     @media only screen and (max-width: 600px) {
-      .bg-img {
+    .bg-img {
         height: 450px;
-      }
+    }
     .topnav a {
         display: none;
-      }
+    }
     
     .topnav a.icon {
         float: right;
         display: block;
-      }
+    }
     
     .topnav.responsive {
         position: relative;
-      }
+    }
     
     .topnav.responsive a {
         display: block;
         float: none;
         text-align: left;
-      }
+    }
     h1 {
         font-size: 30px;
-      }
+    }
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     }
     
 
