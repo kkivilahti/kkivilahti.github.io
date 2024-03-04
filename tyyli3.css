@@ -144,12 +144,12 @@ a:hover {
       .bg-img {
         width: 450px;
       }
-      .topnav {
+      .items{
         display: none;
       }
-      .topnav input:checked ~ .topnav { display: block;}
+      .topnav input:checked ~ .items { display: block;}
 
-      .topnav a {
+      .items a {
         box-sizing: border-box;
         display: block;
         width: 100%;
