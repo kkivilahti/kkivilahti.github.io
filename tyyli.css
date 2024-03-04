@@ -258,7 +258,10 @@ a:hover {
     background-image: url("frontmobile2.jpg");
     height: 450px; 
   }
-    
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   h1 {
     font-size: 60px;
   }
