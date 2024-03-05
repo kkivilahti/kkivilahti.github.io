@@ -61,8 +61,8 @@ hr {
   transition-duration: 0.4s;
 }
 .btn-primary a {
-  background-color:#222120;
-  color: #f8f2ed;
+  background-color:#222120 !important ;
+  color: #f8f2ed !important;
 }
 .btn a :hover {
   background-color: #f8f2ed;
