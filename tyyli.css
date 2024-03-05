@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-family: "Charmonman";
-  font-size: 130px;
+  font-size: 100px;
   color: #f8f2ed;
 }
 
@@ -262,13 +262,13 @@ a:hover {
     }
     }
 
-    /* tabletti */
+  /* tabletti */
  @media only screen and (min-width: 770px) {
   .bg-img {
     min-height: 600px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   h2 {
     font-size: 35px;
@@ -284,7 +284,7 @@ a:hover {
       min-height: 700px;
     }
     h1 {
-      font-size: 60px;
+      font-size: 55px;
     }
     h2 {
       font-size: 35px;
@@ -301,7 +301,7 @@ a:hover {
     min-height: 950px;
   }
   h1 {
-    font-size: 100px;
+    font-size: 95px;
   }
   h2 {
     font-size: 50px;
