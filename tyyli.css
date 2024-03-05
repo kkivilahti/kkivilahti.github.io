@@ -242,7 +242,7 @@ a:hover {
   @media only screen and (max-width: 700px) {
     .bg-img {
       background-image: url("frontmobile2.jpg");
-      min-height: 600px; 
+      min-height: 580px; 
     }
     p {
       margin-left: 5%;
@@ -252,7 +252,7 @@ a:hover {
       font-size: 60px;
     }
     h2 {
-      font-size: 30px;
+      font-size: 28px;
     }
     .container2,
     .container3,
