@@ -92,7 +92,7 @@ a:hover {
 .bg-img {
   background-image: url("front3.jpg");
   width: 100%; 
-  min-height: 710px;
+  min-height: 900px;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -224,12 +224,6 @@ a:hover {
   h1 {
     font-size: 130px;
   }
-  .centered {
-    position: absolute;
-    top: 82%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   .icon {
     display: none;
   } 
@@ -245,12 +239,7 @@ a:hover {
     h2 {
       font-size: 35px;
     }
-    .centered {
-      position: absolute;
-      top: 82%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+
     .icon {
       display: none;
     }
@@ -266,12 +255,6 @@ a:hover {
   }
   h2 {
     font-size: 35px;
-  }
-  .centered {
-    position: absolute;
-    top: 82%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
   .icon {
     display: none;
