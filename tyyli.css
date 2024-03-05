@@ -208,7 +208,7 @@ a:hover {
     font-family: "Open Sans", sans-serif;
     color: #8F6D51;
     font-size: 12px;
-    display: flex !important;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 10px;
