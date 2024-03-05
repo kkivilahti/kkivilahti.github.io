@@ -129,7 +129,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .bg-img {
-    min-height: 450px;
+    min-height: 500px;
   }
   .topnav a {
     display: none;
@@ -172,7 +172,7 @@ a:hover {
 
 @media only screen and (min-width: 1000px) {
   .bg-img {
-    min-height: 750px;
+    min-height: 700px;
   }
   h1 {
     font-size: 50px;
