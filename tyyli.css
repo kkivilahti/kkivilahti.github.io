@@ -273,10 +273,27 @@ a:hover {
   h2 {
     font-size: 35px;
   }
-  .icon {
-    display: none;
+
+  .topnav a {
+    display: none; 
+  }
+  
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .topnav.responsive {
+    position: relative;
+  }
+  
+  .topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
   }
   }
+  
   
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
