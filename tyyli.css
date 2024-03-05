@@ -217,7 +217,7 @@ a:hover {
   }
 
   /* iso näyttö */
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1500px) {
   .bg-img {
     min-height: 900px;
   }
@@ -235,9 +235,9 @@ a:hover {
   } 
   }
   /* pienempi tietokoneen näyttö */
-  @media only screen and (min-width: 1000px) {
+  @media (min-width: 1000px) {
     .bg-img {
-      min-height: 700px;
+      height: 700px;
     }
     h1 {
       font-size: 100px;
@@ -259,7 +259,7 @@ a:hover {
 /* tabletti */
  @media only screen and (min-width: 600px) {
   .bg-img {
-    min-height: 500px;
+    height: 500px;
   }
   h1 {
     font-size: 70px;
