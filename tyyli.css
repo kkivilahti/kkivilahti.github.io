@@ -284,7 +284,7 @@ a:hover {
     }
 
   /* tabletti */
- @media only screen and (min-width: 700px) {
+ @media only screen and (max-width: 1000px) {
   .bg-img {
     min-height: 600px;
   }
