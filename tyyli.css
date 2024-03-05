@@ -209,7 +209,7 @@ a:hover {
     color: #8F6D51;
     font-size: 12px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 30px 10px;
   }
   /* somelinkit */
