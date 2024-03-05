@@ -51,7 +51,7 @@ hr {
 }
 
 /* Etusivun nappi */
-.btn {
+.btn a {
   display: inline-block;
   font-size: 20px;
   text-align: center;
@@ -60,11 +60,11 @@ hr {
   border-radius: 8px;
   transition-duration: 0.4s;
 }
-.btn-primary {
+.btn-primary a {
   background-color:#222120;
   color: #f8f2ed;
 }
-.btn :hover {
+.btn a :hover {
   background-color: #f8f2ed;
   color: #222120;
   border: 2px solid #222120;
