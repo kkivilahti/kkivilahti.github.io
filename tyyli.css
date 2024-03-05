@@ -92,7 +92,7 @@ a:hover {
 .bg-img {
   background-image: url("front3.jpg");
   width: 100%; 
-  min-height: 900px;
+  min-height: 950px;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -217,9 +217,9 @@ a:hover {
   }
 
   /* iso näyttö */
-  @media only screen and (min-width: 1500px) {
+  @media only screen and (min-width: 1600px) {
   .bg-img {
-    min-height: 900px;
+    min-height: 950px;
   }
   h1 {
     font-size: 130px;
