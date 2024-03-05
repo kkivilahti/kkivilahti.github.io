@@ -217,7 +217,7 @@ a:hover {
   }
 
   /* iso näyttö */
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1600px) {
   .bg-img {
     min-height: 900px;
   }
@@ -232,14 +232,34 @@ a:hover {
   }
   .icon {
     display: none;
+  } 
   }
-    
-  }
+  /* pienempi tietokoneen näyttö */
+  @media only screen and (min-width: 1000px) {
+    .bg-img {
+      min-height: 700px;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+    .centered {
+      position: absolute;
+      top: 82%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .icon {
+      display: none;
+    }
+    }
   
 /* tabletti */
  @media only screen and (min-width: 600px) {
   .bg-img {
-    height: 600px;
+    min-height: 500px;
   }
   h1 {
     font-size: 70px;
