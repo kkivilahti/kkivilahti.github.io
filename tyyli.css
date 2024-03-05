@@ -53,12 +53,13 @@ hr {
 /* Etusivun nappi */
 .btn {
   display: inline-block;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   padding: 14px 40px;
   border-radius: 8px;
-  border: 2px solid #222120;
+  border: 3px solid #222120;
 }
 
 /* Linkkien tyylit */
