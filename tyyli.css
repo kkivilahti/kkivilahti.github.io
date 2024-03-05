@@ -237,7 +237,7 @@ a:hover {
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
     .bg-img {
-      height: 700px;
+      height: 750px;
     }
     h1 {
       font-size: 100px;
@@ -259,7 +259,7 @@ a:hover {
 /* tabletti */
  @media only screen and (min-width: 600px) {
   .bg-img {
-    height: 500px;
+    height: 600px;
   }
   h1 {
     font-size: 70px;
