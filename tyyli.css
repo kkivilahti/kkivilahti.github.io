@@ -220,18 +220,72 @@ a:hover {
     padding: 30px 10px;
   }
 
-  /* iso näyttö */
-  @media only screen and (min-width: 1600px) {
+  /* mobiili */
+  @media only screen and (max-width: 600px) {
+    .bg-img {
+      background-image: url("frontmobile2.jpg");
+      min-height: 450px; 
+    }
+    p {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .container2,
+    .container3,
+    .container4 {
+        width: calc(50% - 2%);
+    }
+    .container2,
+    .container3,
+    .container4 {
+        width: 100%; 
+        margin: 0 0 20px 0; 
+    }
+    .centered {
+      display: none;
+    }
+    .topnav a {
+      display: none; 
+    }
+    
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    
+    .topnav.responsive {
+      position: relative;
+    }
+    
+    .topnav.responsive a {
+      display: block;
+      float: none;
+      text-align: left;
+    }
+    }
+
+    /* tabletti */
+ @media only screen and (min-width: 600px) {
   .bg-img {
-    min-height: 920px;
+    min-height: 600px;
   }
   h1 {
-    font-size: 130px;
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 35px;
   }
   .icon {
     display: none;
-  } 
   }
+  }
+  
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
     .bg-img {
@@ -249,71 +303,21 @@ a:hover {
     }
     }
   
-/* tabletti */
- @media only screen and (min-width: 600px) {
+  /* iso näyttö */
+  @media only screen and (min-width: 1600px) {
   .bg-img {
-    min-height: 600px;
+    min-height: 920px;
   }
   h1 {
-    font-size: 70px;
-  }
-  h2 {
-    font-size: 35px;
+    font-size: 130px;
   }
   .icon {
     display: none;
-  }
-  }
-   
-/* mobiili */
-  @media only screen and (max-width: 600px) {
-  .bg-img {
-    background-image: url("frontmobile2.jpg");
-    min-height: 450px; 
-  }
-  p {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  h1 {
-    font-size: 60px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  .container2,
-  .container3,
-  .container4 {
-      width: calc(50% - 2%);
-  }
-  .container2,
-  .container3,
-  .container4 {
-      width: 100%; 
-      margin: 0 0 20px 0; 
-  }
-  .centered {
-    display: none;
-  }
-  .topnav a {
-    display: none; 
+  } 
   }
   
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  
-  .topnav.responsive {
-    position: relative;
-  }
-  
-  .topnav.responsive a {
-    display: block;
-    float: none;
-    text-align: left;
-  }
-  }
+
+
     
   
 
