@@ -283,10 +283,6 @@ a:hover {
       text-align: left;
     }
 
-   .footer {
-    flex-direction: column;
-    text-align: center;
-   }
   }
   
   
@@ -321,12 +317,6 @@ a:hover {
     float: none;
     text-align: left;
   }
-
-  .footer {
-    flex-direction: column;
-    text-align: center;
-   }
-
   }
   
   
@@ -345,15 +335,6 @@ a:hover {
     .icon {
       display: none;
     }
-
-    .footer {
-      flex-direction: row;
-      text-align: left;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      max-height: 15%;
-    }
      
     }
   
@@ -371,14 +352,6 @@ a:hover {
   .icon {
     display: none;
   } 
-  .footer {
-    flex-direction: row;
-    text-align: left;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    max-height: 15%;
-  }
   }
   
 
