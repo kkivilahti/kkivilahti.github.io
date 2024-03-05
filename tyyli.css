@@ -224,7 +224,7 @@ a:hover {
   @media only screen and (max-width: 600px) {
     .bg-img {
       background-image: url("frontmobile2.jpg");
-      min-height: 500px; 
+      min-height: 600px; 
     }
     p {
       margin-left: 5%;
