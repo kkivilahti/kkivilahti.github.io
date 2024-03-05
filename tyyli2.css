@@ -56,7 +56,7 @@ a:hover {
 .bg-img {
   background-image: url("meista1.jpg");
   width: 100%; 
-  min-height: 710px;
+  min-height: 950px;
   
   background-position: center;
   background-repeat: no-repeat;
@@ -117,10 +117,10 @@ a:hover {
     transform: translate(-50%, -50%);
   }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1600px) {
   .bg-img {
-      min-height: 900px;
-    }
+    min-height: 950px;
+  }
   h1 {
     font-size: 50px;
   }
@@ -129,42 +129,54 @@ a:hover {
   }
   }
 
-@media only screen and (min-width: 600px) {
-  .bg-img {
-      height: 600px;
-  }
+  @media only screen and (min-width: 1000px) {
+    .bg-img {
+      min-height: 750px;
+    }
     h1 {
       font-size: 50px;
+    }
+    .icon {
+      display: none;
+    }
+    }
+
+@media only screen and (min-width: 600px) {
+  .bg-img {
+    min-height: 600px;
+  }
+  h1 {
+    font-size: 40px;
   }
   .icon {
-      display: none;
+    display: none;
   }
   }
 
 @media only screen and (max-width: 600px) {
 .bg-img {
-    height: 450px;
+  min-height: 450px;
 }
 .topnav a {
-    display: none;
+  display: none;
 }
 
 .topnav a.icon {
-    float: right;
-    display: block;
+  float: right;
+  display: block;
 }
 
 .topnav.responsive {
-    position: relative;
+  position: relative;
 }
 
 .topnav.responsive a {
-    display: block;
-    float: none;
-    text-align: left;
+  display: block;
+  float: none;
+  text-align: left;
 }
 h1 {
-    font-size: 30px;
+  font-size: 30px;
 }
 p {
   margin-left: 5%;
