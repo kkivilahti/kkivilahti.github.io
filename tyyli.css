@@ -231,7 +231,7 @@ a:hover {
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
     .bg-img {
-      height: 750px;
+      min-height: 750px;
     }
     h1 {
       font-size: 100px;
@@ -248,7 +248,7 @@ a:hover {
 /* tabletti */
  @media only screen and (min-width: 600px) {
   .bg-img {
-    height: 600px;
+    min-height: 600px;
   }
   h1 {
     font-size: 70px;
@@ -265,7 +265,7 @@ a:hover {
   @media only screen and (max-width: 600px) {
   .bg-img {
     background-image: url("frontmobile2.jpg");
-    height: 450px; 
+    min-height: 450px; 
   }
   p {
     margin-left: 5%;
