@@ -117,69 +117,130 @@ a:hover {
     transform: translate(-50%, -50%);
     }
 
+    .footer {
+      font-family: "Open Sans", sans-serif;
+      color: #8F6D51;
+      font-size: 14px;
+      position: static;
+      display: flex;
+      justify-content: space-around;
+      padding: 30px 10px;
+    }
 
-    @media only screen and (min-width: 1200px) {
+     /* mobiili */
+  @media only screen and (max-width: 700px) {
     .bg-img {
-          min-height: 900px;
+      background-image: url("frontmobile2.jpg");
+      min-height: 600px; 
+    }
+    p {
+      margin-left: 5%;
+      margin-right: 5%;
     }
     h1 {
-        font-size: 50px;
+      font-size: 60px;
     }
-    .icon {
-        display: none;
+    h2 {
+      font-size: 30px;
     }
+    .container2,
+    .container3,
+    .container4 {
+        width: calc(50% - 2%);
     }
-    
-    @media only screen and (min-width: 600px) {
-    .bg-img {
-          height: 600px;
+    .container2,
+    .container3,
+    .container4 {
+        width: 100%; 
+        margin: 0 0 20px 0; 
     }
-    h1 {
-          font-size: 50px;
-    }
-    .icon {
-          display: none;
-    }
-      }
-    
-    @media only screen and (max-width: 600px) {
-    .bg-img {
-        height: 450px;
+    .centered {
+      display: none;
     }
     .topnav a {
-        display: none;
+      display: none; 
     }
     
     .topnav a.icon {
-        float: right;
-        display: block;
+      float: right;
+      display: block;
     }
     
     .topnav.responsive {
-        position: relative;
+      position: relative;
     }
     
     .topnav.responsive a {
-        display: block;
-        float: none;
-        text-align: left;
+      display: block;
+      float: none;
+      text-align: left;
+    }
+  }
+  
+  /* tabletti */
+ @media only screen and (max-width: 1000px) {
+  .bg-img {
+    min-height: 600px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+
+  .topnav a {
+    display: none; 
+  }
+  
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .topnav.responsive {
+    position: relative;
+  }
+  
+  .topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  }
+  
+  
+  /* pienempi tietokoneen näyttö */
+  @media (min-width: 1000px) {
+    .bg-img {
+      min-height: 700px;
     }
     h1 {
-        font-size: 30px;
+      font-size: 55px;
     }
-    p {
-        margin-left: 5%;
-        margin-right: 5%;
+    h2 {
+      font-size: 35px;
     }
-    }
-    
 
-  .footer {
-    font-family: "Open Sans", sans-serif;
-    color: #8F6D51;
-    font-size: 14px;
-    position: static;
-    display: flex;
-    justify-content: space-around;
-    padding: 30px 10px;
+    .icon {
+      display: none;
+    }
+     
+    }
+  
+  /* iso näyttö */
+  @media only screen and (min-width: 1600px) {
+  .bg-img {
+    min-height: 950px;
   }
+  h1 {
+    font-size: 95px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .icon {
+    display: none;
+  } 
+  }
+
