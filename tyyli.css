@@ -289,7 +289,7 @@ a:hover {
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
     .bg-img {
-      min-height: 750px;
+      min-height: 700px;
     }
     h1 {
       font-size: 100px;
