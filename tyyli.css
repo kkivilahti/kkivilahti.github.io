@@ -50,8 +50,8 @@ hr {
   font-weight: bold;
 }
 
-/* Etusivun nappi */
-.btn {
+/* call to action */
+.cta {
   display: inline-block;
   font-size: 22px;
   font-weight: bold;
