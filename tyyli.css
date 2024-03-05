@@ -52,13 +52,17 @@ hr {
 
 /* Etusivun nappi */
 .btn {
+  display: inline-block;
   font-size: 20px;
-  color: #f8f2ed;
   text-align: center;
-  background-color: #222120;
+  text-decoration: none;
   padding: 14px 40px;
   border-radius: 8px;
   transition-duration: 0.4s;
+}
+.btn-primary {
+  background-color:#222120;
+  color: #f8f2ed;
 }
 .btn :hover {
   background-color: #f8f2ed;
