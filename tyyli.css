@@ -213,7 +213,7 @@ a:hover {
   }
 
   /* mobiili */
-  @media only screen and (max-width: 770px) {
+  @media only screen and (max-width: 768px) {
     .bg-img {
       background-image: url("frontmobile2.jpg");
       min-height: 600px; 
@@ -263,12 +263,12 @@ a:hover {
     }
 
     /* tabletti */
- @media only screen and (min-width: 770px) {
+ @media only screen and (min-width: 768px) {
   .bg-img {
     min-height: 600px;
   }
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   h2 {
     font-size: 35px;
