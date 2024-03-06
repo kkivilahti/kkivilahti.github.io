@@ -53,6 +53,7 @@ hr {
 /* call to action */
 .btn {
   display: inline-block;
+  color: #222120;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
@@ -68,6 +69,9 @@ a:link {
   background-color: transparent;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
+}
+a:visited {
+  color: #222120;
 }
 
 a:hover {
