@@ -70,13 +70,6 @@ a:link {
   font-family: "Open Sans", sans-serif;
 }
 
-a:visited {
-  color: #6d6c6b;
-  background-color: transparent;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-}
-
 a:hover {
   color: #996134e1;
   background-color: transparent;
@@ -252,7 +245,7 @@ a:hover {
       font-size: 60px;
     }
     h2 {
-      font-size: 30px;
+      font-size: 26px;
     }
     .container2,
     .container3,
@@ -313,6 +306,13 @@ a:hover {
     display: block;
     float: none;
     text-align: left;
+  }
+  .nosto {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 20px;
+    border: 2px solid #222120;
   }
   }
   
