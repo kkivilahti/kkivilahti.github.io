@@ -212,8 +212,8 @@ a:hover {
     font-size: 16px;
     width: 15px;
     text-align: center;
-    display: flex !important;
-    justify-content: center;
+    display: flex;
+    justify-content: center !important;
     align-items: center;
     text-decoration: none;
     margin: 5px 2px;
