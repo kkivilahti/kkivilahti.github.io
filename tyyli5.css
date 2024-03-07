@@ -106,6 +106,7 @@ a:hover {
   .text {
     float: left;
     font-size: 20px;
+    text-align: left;
   }
 
   .ul {
