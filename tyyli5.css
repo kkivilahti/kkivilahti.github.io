@@ -97,7 +97,7 @@ a:hover {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-right: 20%;
     margin-left: 20%;
     margin-top: 5%;
@@ -188,7 +188,12 @@ a:hover {
     display: block;
     float: none;
     text-align: left;
-  } }
+  } 
+  .container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }}
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
     h1 {
