@@ -158,9 +158,9 @@ a:hover {
   text-align: left;
 } 
 .container {
-  width: 70%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .text {
   float: none;
