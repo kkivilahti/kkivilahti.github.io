@@ -180,8 +180,11 @@ a:hover {
     text-align: left;
   } 
   .container {
-    width: 100%;
-
+    width: 95%;
+  }
+  .text {
+    margin-right: 2%;
+    margin-left: 2%;
   }
   }
   /* pienempi tietokoneen näyttö */
