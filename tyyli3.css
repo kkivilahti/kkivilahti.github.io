@@ -129,6 +129,9 @@ a:hover {
       color: #8F6D51;
       margin-left: 25%;
     }
+    .ul li {
+      margin-left: 25%;
+    }
 
     .row:after {
       content: "";
