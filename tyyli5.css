@@ -134,6 +134,7 @@ a:hover {
   display: flex;
   justify-content: space-around;
   padding: 30px 10px;
+  text-align: center;
 }  
 
 /* mobiili */
