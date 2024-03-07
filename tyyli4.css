@@ -22,6 +22,7 @@ h2 {
     text-align: center;
 }
 
+
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
@@ -108,15 +109,8 @@ a:hover {
       background-color: black;
       opacity: 0.8;
     }
-  
-    /* Tekstin asettelu etusivun kuvassa */
-    .centered {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
     
+    /* alatunniste */
     .footer {
       font-family: "Open Sans", sans-serif;
       color: #8F6D51;

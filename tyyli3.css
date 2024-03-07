@@ -3,31 +3,36 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    background-color: #f8f2ed;
+  background-color: #f8f2ed;
 } 
 
 h1 {
-    font-family: "Playfair Display";
-    font-size: 45px;
-    letter-spacing: 4px;
-    color: #222120;
-    text-align: center;
+  font-family: "Playfair Display";
+  font-size: 45px;
+  letter-spacing: 4px;
+  color: #222120;
+  text-align: center;
 }
 
 h2 {
-    font-family: "Playfair Display";
-    font-size: 35px;
-    letter-spacing: 4px;
-    color: #222120;
-    text-align: center;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  letter-spacing: 4px;
+  color: #222120;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: #222120;
 }
 
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
     color: #8F6D51;
-    margin-right: 15%;
-    margin-left: 15%;
     text-align: center;
 }
 
@@ -116,6 +121,13 @@ a:hover {
       text-align: center;
       font-family: "Open Sans", sans-serif;
     }
+    .ul {
+      line-height:130%;
+      font-family: "Open Sans", sans-serif;
+      font-size: 17px;
+      color: #8F6D51;
+    }
+
     .row:after {
       content: "";
       display: table;
