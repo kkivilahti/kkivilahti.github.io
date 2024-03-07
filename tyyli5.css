@@ -131,4 +131,53 @@ a:hover {
   display: flex;
   justify-content: space-around;
   padding: 30px 10px;
+}  
+
+/* mobiili */
+@media only screen and (max-width: 700px) {
+.topnav a {
+  display: none; 
 }
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+.topnav.responsive {
+  position: relative;
+}
+.topnav.responsive a {
+  display: block;
+  float: none;
+  text-align: left;
+} }
+
+/* tabletti */
+@media only screen and (max-width: 1000px) {
+  .topnav a {
+    display: none; 
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
+  } }
+  /* pienempi tietokoneen näyttö */
+  @media (min-width: 1000px) {
+    .icon {
+      display: none;
+    }
+    }
+  
+  /* iso näyttö */
+  @media only screen and (min-width: 1600px) {
+  .icon {
+    display: none;
+  } 
+  }
