@@ -152,10 +152,6 @@ a:hover {
   margin-left: 2%;
   margin-right: 2%;
 }
-.text {
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
 }
 
@@ -181,11 +177,8 @@ a:hover {
   } 
   .container {
     width: 95%;
-  }
-  .text {
     margin-right: 2%;
     margin-left: 2%;
-  }
   }
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
