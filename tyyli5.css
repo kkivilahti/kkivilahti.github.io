@@ -95,18 +95,17 @@ a:hover {
   .container {
     width: 60%;
     overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .text {
+    float: left;
     font-size: 18px;
-    margin: 10%;
-    text-align: center;
   }
 
   .kartta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    float: right;
   }
 
 .footer {
