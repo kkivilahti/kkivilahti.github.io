@@ -26,8 +26,6 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #8F6D51;
-  margin-right: 15%;
-  margin-left: 15%;
   text-align: center;
 }
 
@@ -100,8 +98,8 @@ a:hover {
     justify-content: center;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: 5%;
     margin-bottom: 5%;
+    margin-top: 5%;
   }
 
   .text {
@@ -192,10 +190,10 @@ a:hover {
     text-align: left;
   } 
   .container {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }}
+    width: 100%;
+
+  }
+  }
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
     h1 {
