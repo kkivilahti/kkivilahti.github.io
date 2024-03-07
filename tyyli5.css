@@ -106,6 +106,7 @@ a:hover {
     margin-bottom: 2%;
   }
 
+/* Alatunniste */
 .footer {
   font-family: "Open Sans", sans-serif;
   color: #8F6D51;
@@ -117,7 +118,7 @@ a:hover {
   text-align: center;
 }  
 
-/* mobiili */
+/* Mobiili */
 @media only screen and (max-width: 700px) {
   h1 {
     font-size: 25px;
@@ -149,7 +150,7 @@ a:hover {
 
 }
 
-/* tabletti */
+/* Tabletti */
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 40px;
@@ -175,7 +176,7 @@ a:hover {
     margin-left: 10%;
   }
   }
-  /* pienempi tietokoneen näyttö */
+  /* Pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
     h1 {
       font-size: 45px;
@@ -190,7 +191,7 @@ a:hover {
     }
     }
   
-  /* iso näyttö */
+  /* Iso näyttö */
   @media only screen and (min-width: 1600px) {
   h1 {
     font-size: 50px;
