@@ -196,7 +196,7 @@ a:hover {
       min-height: 700px;
     }
     h1 {
-      font-size: 55px;
+      font-size: 45px;
     }
     h2 {
       font-size: 35px;
@@ -212,10 +212,7 @@ a:hover {
     min-height: 950px;
   }
   h1 {
-    font-size: 95px;
-  }
-  h2 {
-    font-size: 50px;
+      font-size: 50px;
   }
   .icon {
     display: none;

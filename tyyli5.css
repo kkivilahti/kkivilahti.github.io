@@ -102,7 +102,6 @@ a:hover {
     margin-left: 20%;
     margin-top: 5%;
     margin-bottom: 5%;
-    background: white;
   }
 
   .text {
@@ -125,6 +124,7 @@ a:hover {
   .kartta {
     float: right;
     border: 2px solid #222120;
+    margin-top: 2%;
   }
 
 .footer {
@@ -139,6 +139,9 @@ a:hover {
 
 /* mobiili */
 @media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
 .topnav a {
   display: none; 
 }
@@ -168,6 +171,9 @@ a:hover {
 
 /* tabletti */
 @media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 40px;
+  }
   .topnav a {
     display: none; 
   }
@@ -185,6 +191,9 @@ a:hover {
   } }
   /* pienempi tietokoneen näyttö */
   @media (min-width: 1000px) {
+    h1 {
+      font-size: 45px;
+    }
     .icon {
       display: none;
     }
@@ -192,6 +201,9 @@ a:hover {
   
   /* iso näyttö */
   @media only screen and (min-width: 1600px) {
+  h1 {
+    font-size: 50px;
+  }
   .icon {
     display: none;
   } 
