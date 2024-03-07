@@ -120,9 +120,10 @@ a:hover {
     font-size: 20px;
     color: #8F6D51;
   }
-  
+
   .kartta {
     float: right;
+    border: 2px solid #222120;
   }
 
 .footer {
