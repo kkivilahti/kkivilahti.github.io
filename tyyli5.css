@@ -104,6 +104,7 @@ a:hover {
 
   .text {
     font-size: 20px;
+    margin-bottom: 2%;
   }
 
   .ul {
@@ -112,17 +113,15 @@ a:hover {
     color: #8F6D51;
     text-align: center;
   } 
-  ul li {
+  .ul li {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #8F6D51;
     text-align: center;
-
   }
 
  .kartta {
     border: 2px solid #222120;
-    margin-top: 2%;
   }
 
 .footer {
