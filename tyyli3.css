@@ -109,14 +109,18 @@ a:hover {
       opacity: 0.8;
     }
   
-    /* Tekstin asettelu etusivun kuvassa */
-    .centered {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* Tuotelistojen asettelu */
+    .column {
+      float: left;
+      width: 33.33%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
     }
 
+    /* Alatunniste */
     .footer {
       font-family: "Open Sans", sans-serif;
       color: #8F6D51;
