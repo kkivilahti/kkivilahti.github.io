@@ -103,6 +103,11 @@ a:hover {
     float: left;
     font-size: 18px;
   }
+  .li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #8F6D51;
+  }
 
   .kartta {
     float: right;
