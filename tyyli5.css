@@ -98,14 +98,12 @@ a:hover {
     justify-content: center;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
   }
 
   .text {
-    float: left;
     font-size: 20px;
-    margin-right: 5%;
   }
 
   .ul {
@@ -121,7 +119,6 @@ a:hover {
   }
 
  .kartta {
-    float: right;
     border: 2px solid #222120;
     margin-top: 2%;
   }
