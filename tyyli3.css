@@ -193,6 +193,10 @@ a:hover {
   h2 {
     font-size: 35px;
   }
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .topnav a {
     display: none; 
   }
