@@ -107,6 +107,7 @@ a:hover {
   .text {
     float: left;
     font-size: 20px;
+    margin-right: 10px;
   }
 
   .ul {
