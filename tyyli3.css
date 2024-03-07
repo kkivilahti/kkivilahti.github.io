@@ -166,10 +166,10 @@ a:hover {
     }
     h2 {
       font-size: 25px;
-      margin-left: 10%;
+      margin-left: 15%;
     }
     h3 {
-      margin-left: 10%;
+      margin-left: 15%;
     }
     .topnav a {
       display: none; 
@@ -190,7 +190,7 @@ a:hover {
       width: 100%;
     }
     .ul, .ul li {
-      margin-left: 10%;
+      margin-left: 15%;
     }
     }
   
