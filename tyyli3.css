@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   font-family: "Playfair Display";
-  font-size: 25px;
+  font-size: 22px;
   letter-spacing: 4px;
   color: #222120;
 }
@@ -34,6 +34,8 @@ p {
     font-size: 17px;
     color: #8F6D51;
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* Linkkien tyylit */
@@ -125,6 +127,7 @@ a:hover {
       font-family: "Open Sans", sans-serif;
       font-size: 17px;
       color: #8F6D51;
+      margin-left: 5%;
     }
 
     .row:after {
