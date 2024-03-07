@@ -91,7 +91,7 @@ a:hover {
   
   /* Tekstin ja kartan asettelu */
   .container {
-    width: 60%;
+    width: 80%;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
@@ -105,23 +105,12 @@ a:hover {
   .text {
     font-size: 20px;
     margin-bottom: 2%;
+    float: left;
   }
-
-  .ul {
-    font-family: "Open Sans", sans-serif;
+  .text2 {
     font-size: 18px;
-    color: #8F6D51;
-    text-align: center;
-  } 
-  .ul li {
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    color: #8F6D51;
-    text-align: center;
-  }
-
- .kartta {
-    border: 2px solid #222120;
+    margin-bottom: 2%;
+    float: right;
   }
 
 .footer {
@@ -167,10 +156,8 @@ a:hover {
   margin-left: 5%;
   margin-right: 5%;
 }
-.kartta {
-  margin-left: 5%;
-  margin-right: 5%;
-}}
+
+}
 
 /* tabletti */
 @media only screen and (max-width: 1000px) {
