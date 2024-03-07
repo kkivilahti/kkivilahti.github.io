@@ -125,9 +125,7 @@ a:hover {
   h2 {
     font-size: 30px;
   }
-  p {
-    font-size: 15px;
-  }
+
 .topnav a {
   display: none; 
 }
@@ -144,9 +142,9 @@ a:hover {
   text-align: left;
 } 
 .container {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 }
