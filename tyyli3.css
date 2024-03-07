@@ -164,6 +164,10 @@ a:hover {
     }
     h2 {
       font-size: 25px;
+      margin-left: 10%;
+    }
+    h3 {
+      margin-left: 10%;
     }
     .topnav a {
       display: none; 
@@ -183,7 +187,11 @@ a:hover {
     .column {
       width: 100%;
     }
-  }
+    .ul, .ul li {
+      margin-left: 10%;
+    }
+    }
+  
   
   /* tabletti */
  @media only screen and (max-width: 1000px) {
@@ -219,7 +227,7 @@ a:hover {
     float: none;
     text-align: left;
   }
-  .column {
+  .ul, .ul li{
     margin-left: 10%;
   }
   }
