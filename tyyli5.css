@@ -121,7 +121,7 @@ a:hover {
 /* Mobiili */
 @media only screen and (max-width: 700px) {
   h1 {
-    font-size: 25px;
+    font-size: 22px;
   }
   h2 {
     font-size: 25px;
