@@ -116,7 +116,7 @@ a:hover {
     /* Tuotelistojen asettelu */
     .column {
       float: left;
-      width: 33.33%;
+      width: 25%;
       font-family: "Open Sans", sans-serif;
       margin-left: 15%;
     }
@@ -126,7 +126,6 @@ a:hover {
       font-family: "Open Sans", sans-serif;
       font-size: 17px;
     }
-
 
     .row:after {
       content: "";
