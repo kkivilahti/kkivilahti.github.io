@@ -19,14 +19,12 @@ h2 {
   font-size: 35px;
   letter-spacing: 4px;
   color: #222120;
-  margin-left: 20%;
 }
 
 h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
   color: #222120;
-  margin-left: 20%;
 }
 
 p {
@@ -120,20 +118,15 @@ a:hover {
       float: left;
       width: 33.33%;
       font-family: "Open Sans", sans-serif;
+      margin-left: 15%;
     }
 
     .ul {
       line-height:130%;
       font-family: "Open Sans", sans-serif;
       font-size: 17px;
-      color: #8F6D51;
-      margin-left: 25%;
-      padding-left: 25%;
     }
-    .ul li {
-      margin-left: 25%;
-      padding-left: 25%;
-    }
+
 
     .row:after {
       content: "";
@@ -166,10 +159,6 @@ a:hover {
     }
     h2 {
       font-size: 25px;
-      margin-left: 15%;
-    }
-    h3 {
-      margin-left: 15%;
     }
     .topnav a {
       display: none; 
@@ -188,8 +177,6 @@ a:hover {
     }
     .column {
       width: 100%;
-    }
-    .ul, .ul li {
       margin-left: 15%;
     }
     }
@@ -205,10 +192,6 @@ a:hover {
   }
   h2 {
     font-size: 35px;
-    margin-left: 5%;
-  }
-  h3 {
-    margin-left: 5%;
   }
   p {
     margin-left: 10%;
@@ -229,7 +212,7 @@ a:hover {
     float: none;
     text-align: left;
   }
-  .ul, .ul li{
+  .column {
     margin-left: 10%;
   }
   }
