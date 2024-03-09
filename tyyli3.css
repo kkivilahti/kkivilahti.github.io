@@ -175,7 +175,7 @@ a:hover {
       text-align: left;
     }
     .column {
-      min-width: 60%;
+      width: 100%;
       margin-left: 20%;
     }
     }
