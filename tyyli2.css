@@ -61,50 +61,50 @@ a:hover {
   margin: 0;
   padding: 0;
   position: relative;
-  }
+}
     
-  /* Navin sijainti kuvan sisällä */
-  .container {
-    width: auto; 
-  }
+/* Navin sijainti kuvan sisällä */
+.container {
+  width: auto; 
+}
     
-  /* Navigointi */
-  .topnav {
-    overflow: hidden;
-    background-color: #f8f2ed;
-    opacity: 0.8;
-    font-family: "Charmonman";
-    color: #222120;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
-    margin-top: 12px;
-    margin-bottom: -12px;
-  }
+/* Navigointi */
+.topnav {
+  overflow: hidden;
+  background-color: #f8f2ed;
+  opacity: 0.8;
+  font-family: "Charmonman";
+  color: #222120;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+}
     
-  .topnav a {
-    float: right;
-    color: #222120;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    font-size: 18px;
-  }
+.topnav a {
+  float: right;
+  color: #222120;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
     
-  .topnav a:hover {
-      color: #f8f2ed;
-      background-color: #222120;
-      opacity: 0.8;
-  }
+.topnav a:hover {
+  color: #f8f2ed;
+  background-color: #222120;
+  opacity: 0.8;
+}
 
-  #valittu {
-      color: #f8f2ed;
-      background-color: black;
-      opacity: 0.8;
-  }
-  
+#valittu {
+  color: #f8f2ed;
+  background-color: black;
+  opacity: 0.8;
+}
+
 /* Ota yhteyttä -nappi */
 .btn {
   display: inline-block;
@@ -129,8 +129,8 @@ a:hover {
   padding: 30px 10px;
 }
 
- /* mobiili */
- @media only screen and (max-width: 700px) {
+/* mobiili */
+@media only screen and (max-width: 700px) {
   .bg-img {
     min-height: 580px; 
   }
@@ -143,9 +143,6 @@ a:hover {
   }
   h2 {
     font-size: 20px;
-  }
-  .centered {
-    display: none;
   }
   .topnav a {
     display: none; 
@@ -162,7 +159,6 @@ a:hover {
     float: none;
     text-align: left;
   }
-
 }
 
 /* tabletti */
@@ -208,7 +204,7 @@ h2 {
   .icon {
     display: none;
   } 
-  }
+}
 
 /* iso näyttö */
 @media only screen and (min-width: 1600px) {
@@ -218,7 +214,6 @@ h2 {
 h1 {
   font-size: 50px;
 }
-
 .icon {
   display: none;
 } 

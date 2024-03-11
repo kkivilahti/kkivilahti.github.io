@@ -28,12 +28,12 @@ h3 {
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 17px;
-    color: #8F6D51;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #8F6D51;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* Linkkien tyylit */
@@ -55,148 +55,147 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 
+.bg-img {
+  background-image: url("tuotteet2.jpg");
+  width: 100%; 
+  min-height: 920px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+    
+/* Navin sijainti kuvan sisällä */
+.container {
+  width: auto; 
+}
+    
+/* Navigointi */
+.topnav {
+  overflow: hidden;
+  background-color: #f8f2ed;
+  opacity: 0.8;
+  font-family: "Charmonman";
+  color: #222120;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+}
+    
+.topnav a {
+  float: right;
+  color: #222120;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
+    
+.topnav a:hover {
+  color: #f8f2ed;
+  background-color: #222120;
+  opacity: 0.8;
+}
+
+#valittu {
+  color: #f8f2ed;
+  background-color: black;
+  opacity: 0.8;
+}
+
+/* Varaa pöytä -nappi */
+.btn {
+  display: inline-block;
+  color: #222120;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 40px;
+  border-radius: 8px;
+  border: 3px solid #222120;
+}
+
+/* Tuotelistojen asettelu */
+.row {
+  display: flex;
+  justify-content: center;
+}
+    
+.column {
+  flex: 0 0 calc(33.33% - 20px); 
+  margin: 0; 
+  font-family: "Open Sans", sans-serif;
+}
+
+.ul {
+  line-height: 130%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Alatunniste */
+.footer {
+  font-family: "Open Sans", sans-serif;
+  color: #8F6D51;
+  font-size: 14px;
+  position: static;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
+
+/* mobiili */
+@media only screen and (max-width: 700px) {
   .bg-img {
-    background-image: url("tuotteet2.jpg");
-    width: 100%; 
-    min-height: 920px;
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    }
-    
-    /* Navin sijainti kuvan sisällä */
-    .container {
-      width: auto; 
-    }
-    
-    /* Navigointi */
-    .topnav {
-      overflow: hidden;
-      background-color: #f8f2ed;
-      opacity: 0.8;
-      font-family: "Charmonman";
-      color: #222120;
-      text-align: left;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 24px;
-      margin-top: 12px;
-      margin-bottom: -12px;
-    }
-    
-    .topnav a {
-      float: right;
-      color: #222120;
-      text-align: center;
-      padding: 14px 16px;
-      font-family: "Open Sans", sans-serif;
-      text-decoration: none;
-      font-size: 18px;
-    }
-    
-    .topnav a:hover {
-      color: #f8f2ed;
-      background-color: #222120;
-      opacity: 0.8;
-    }
-
-    #valittu {
-      color: #f8f2ed;
-      background-color: black;
-      opacity: 0.8;
-    }
-
-  /* Varaa pöytä -nappi */
-  .btn {
-    display: inline-block;
-    color: #222120;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 40px;
-    border-radius: 8px;
-    border: 3px solid #222120;
+    min-height: 580px; 
   }
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .topnav a {
+    display: none; 
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+   position: relative;
+  }
+  .topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .column {
+    min-width: 90%;
+    margin-left: 20%;
+  }
+}
   
-    /* Tuotelistojen asettelu */
-    .row {
-      display: flex;
-      justify-content: center;
-    }
-    
-    .column {
-      flex: 0 0 calc(33.33% - 20px); 
-      margin: 0; 
-      font-family: "Open Sans", sans-serif;
-    }
-
-    .ul {
-      line-height: 130%;
-      font-family: "Open Sans", sans-serif;
-      font-size: 17px;
-    }
-
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    /* Alatunniste */
-    .footer {
-      font-family: "Open Sans", sans-serif;
-      color: #8F6D51;
-      font-size: 14px;
-      position: static;
-      display: flex;
-      justify-content: space-around;
-      padding: 30px 10px;
-    }
-
-  /* mobiili */
-  @media only screen and (max-width: 700px) {
-    .bg-img {
-      min-height: 580px; 
-    }
-    p {
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-    h1 {
-      font-size: 18px;
-    }
-    h2 {
-      font-size: 25px;
-    }
-    .topnav a {
-      display: none; 
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-    .topnav.responsive {
-      position: relative;
-    }
-    .topnav.responsive a {
-      display: block;
-      float: none;
-      text-align: left;
-    }
-    .column {
-      min-width: 90%;
-      margin-left: 20%;
-    }
-    }
-  
-  
-  /* tabletti */
- @media only screen and (max-width: 1000px) {
+/* tabletti */
+@media only screen and (max-width: 1000px) {
   .bg-img {
     min-height: 600px;
   }
@@ -229,26 +228,26 @@ a:hover {
     margin-left: 10%;
     width: 18%;
   }
+}
+  
+/* pienempi tietokoneen näyttö */
+@media (min-width: 1000px) {
+  .bg-img {
+    min-height: 700px;
   }
-  
-  /* pienempi tietokoneen näyttö */
-  @media (min-width: 1000px) {
-    .bg-img {
-      min-height: 700px;
-    }
-    h1 {
-      font-size: 45px;
-    }
-    h2 {
-      font-size: 35px;
-    }
-    .icon {
-      display: none;
-    }
-    }
-  
-  /* iso näyttö */
-  @media only screen and (min-width: 1600px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .icon {
+    display: none;
+  }
+}
+
+/* iso näyttö */
+@media only screen and (min-width: 1600px) {
   .bg-img {
     min-height: 920px;
   }
@@ -258,5 +257,5 @@ a:hover {
   .icon {
     display: none;
   } 
-  }
+}
 

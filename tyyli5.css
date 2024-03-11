@@ -175,9 +175,10 @@ a:hover {
     margin-right: 10%;
     margin-left: 10%;
   }
-  }
-  /* Pienempi tietokoneen näyttö */
-  @media (min-width: 1000px) {
+}
+
+/* Pienempi tietokoneen näyttö */
+@media (min-width: 1000px) {
     h1 {
       font-size: 45px;
     }
@@ -192,10 +193,10 @@ a:hover {
       margin-left: 15%;
       margin-right: 15%;
     }
-    }
-  
-  /* Iso näyttö */
-  @media only screen and (min-width: 1600px) {
+  }
+
+/* Iso näyttö */
+@media only screen and (min-width: 1600px) {
   h1 {
     font-size: 50px;
   }
@@ -210,4 +211,4 @@ a:hover {
     margin-left: 20%;
     margin-right: 20%;
   }
-  }
+}
