@@ -126,7 +126,7 @@ a:hover {
 /* Tuotelistojen asettelu */
 .row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
     
 .column {
