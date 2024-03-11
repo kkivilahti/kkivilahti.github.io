@@ -217,6 +217,10 @@ a:hover {
     float: none;
     text-align: left;
   }
+  .column {
+    flex: 0 0 100%;
+    margin: 5%;
+  }
 }
   
 /* pienempi tietokoneen näyttö */
