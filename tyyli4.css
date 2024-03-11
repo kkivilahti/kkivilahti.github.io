@@ -118,7 +118,27 @@ a:hover {
       border-radius: 8px;
       border: 3px solid #222120;
     }
-    
+
+    /* Tuotelistojen asettelu */
+    .column {
+      float: left;
+      width: 30%;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 20%;
+    }
+
+    .ul {
+      line-height:130%;
+      font-family: "Open Sans", sans-serif;
+      font-size: 17px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
     /* alatunniste */
     .footer {
       font-family: "Open Sans", sans-serif;
