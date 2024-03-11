@@ -131,8 +131,7 @@ a:hover {
     
 .column {
   flex: 0 0 calc(33.33% - 10%); 
-  margin: 10%; 
-  align-items: center;
+  margin-left: 10%; 
   font-family: "Open Sans", sans-serif;
 }
 
