@@ -183,7 +183,7 @@ a:hover {
       text-align: left;
     }
     .column {
-      min-width: 90%;
+      min-width: 100%;
   }
 }
 
