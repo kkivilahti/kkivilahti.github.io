@@ -122,9 +122,9 @@ a:hover {
     /* Tuotelistojen asettelu */
     .column {
       float: left;
-      width: 30%;
+      width: 25%;
       font-family: "Open Sans", sans-serif;
-      margin-left: 20%;
+      margin-left: 15%;
     }
 
     .ul {
