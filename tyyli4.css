@@ -108,6 +108,19 @@ a:hover {
       background-color: black;
       opacity: 0.8;
     }
+
+    /* Varaa pöytä -nappi */
+    .btn {
+      display: inline-block;
+      color: #222120;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px 40px;
+      border-radius: 8px;
+      border: 3px solid #222120;
+    }
     
     /* alatunniste */
     .footer {
