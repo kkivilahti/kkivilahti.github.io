@@ -45,10 +45,7 @@ a:link {
 }
 
 a:visited {
-  color: #6d6c6b;
-  background-color: transparent;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  color: #222120;
 }
 
 a:hover {
