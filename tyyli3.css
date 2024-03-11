@@ -124,15 +124,19 @@ a:hover {
   }
   
     /* Tuotelistojen asettelu */
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+    
     .column {
-      float: left;
-      width: 20%;
+      flex: 0 0 calc(33.33% - 20px); 
+      margin: 0 10px; 
       font-family: "Open Sans", sans-serif;
-      margin-left: 11%;
     }
 
     .ul {
-      line-height:130%;
+      line-height: 130%;
       font-family: "Open Sans", sans-serif;
       font-size: 17px;
     }
