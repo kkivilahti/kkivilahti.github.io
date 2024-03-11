@@ -187,6 +187,7 @@ a:hover {
   .column {
     width: 95%;
     margin-left: 5%;
+    align-items: center;
   }
 }
   
