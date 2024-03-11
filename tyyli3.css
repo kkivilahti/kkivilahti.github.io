@@ -131,7 +131,7 @@ a:hover {
     
     .column {
       flex: 0 0 calc(33.33% - 20px); 
-      margin: 0 10px; 
+      margin: 0; 
       font-family: "Open Sans", sans-serif;
     }
 
