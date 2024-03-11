@@ -117,12 +117,15 @@ a:hover {
 
 /* Mobiili */
 @media only screen and (max-width: 700px) {
-  h1 {
-    font-size: 22px;
-  }
-  h2 {
-    font-size: 25px;
-  }
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 25px;
+}
+p {
+  font-size: 17px;
+}
 
 .topnav a {
   display: none; 
@@ -178,21 +181,21 @@ a:hover {
 
 /* Pienempi tietokoneen näyttö */
 @media (min-width: 1000px) {
-    h1 {
-      font-size: 45px;
-    }
-    h2 {
-      font-size: 38px;
-    }
-    .icon {
-      display: none;
-    }
-    .container {
-      width: 70%;
-      margin-left: 15%;
-      margin-right: 15%;
-    }
+  h1 {
+    font-size: 45px;
   }
+  h2 {
+    font-size: 38px;
+  }
+  .icon {
+    display: none;
+  }
+  .container {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
 
 /* Iso näyttö */
 @media only screen and (min-width: 1600px) {
