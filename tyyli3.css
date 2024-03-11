@@ -193,7 +193,7 @@ a:hover {
   }
   .column {
     flex: 0 0 95%;
-    margin: 2%;
+    margin-left: 5%;
   }
 }
   
