@@ -49,6 +49,7 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Kuvan asetukset */
 .bg-img {
   background-image: url("brunssi4.jpg");
   width: 100%; 

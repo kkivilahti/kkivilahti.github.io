@@ -48,60 +48,59 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Navigointi */
+.topnav {
+  overflow: hidden;
+  background-color: #f8f2ed;
+  opacity: 0.8;
+  font-family: "Charmonman";
+  color: #222120;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+}
     
-  /* Navigointi */
-  .topnav {
-    overflow: hidden;
-    background-color: #f8f2ed;
-    opacity: 0.8;
-    font-family: "Charmonman";
-    color: #222120;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
-    margin-top: 12px;
-    margin-bottom: -12px;
-  }
+.topnav a {
+  float: right;
+  color: #222120;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
     
-  .topnav a {
-    float: right;
-    color: #222120;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    font-size: 18px;
-  }
-    
-  .topnav a:hover {
-      color: #f8f2ed;
-      background-color: #222120;
-      opacity: 0.8;
-  }
+.topnav a:hover {
+  color: #f8f2ed;
+  background-color: #222120;
+  opacity: 0.8;
+}
 
-  #valittu {
-      color: #f8f2ed;
-      background-color: black;
-      opacity: 0.8;
-  }
+#valittu {
+  color: #f8f2ed;
+  background-color: black;
+  opacity: 0.8;
+}
   
-  /* Tekstin ja kartan asettelu */
-  .container {
-    width: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-  }
+/* Tekstin asettelu */
+.container {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
 
-  .text {
-    font-size: 20px;
-    margin-bottom: 2%;
-  }
+.text {
+  font-size: 20px;
+  margin-bottom: 2%;
+}
 
 /* Alatunniste */
 .footer {

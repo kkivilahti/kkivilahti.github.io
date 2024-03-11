@@ -50,6 +50,7 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Kuvan asetukset */
 .bg-img {
   background-image: url("meista1.jpg");
   width: 100%; 
@@ -62,8 +63,7 @@ a:hover {
   padding: 0;
   position: relative;
 }
-    
-/* Navin sijainti kuvan sisällä */
+
 .container {
   width: auto; 
 }
