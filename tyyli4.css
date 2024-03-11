@@ -135,12 +135,6 @@ a:hover {
   font-size: 17px;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* alatunniste */
 .footer {
   font-family: "Open Sans", sans-serif;
@@ -187,7 +181,7 @@ a:hover {
   }
   .column {
     flex: 0 0 95%;
-    margin: 2%;
+    margin-left: 5%;
   }
 }
 
