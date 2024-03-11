@@ -124,14 +124,10 @@ a:hover {
 }
 
 /* Tuotelistojen asettelu */
-.row {
-  display: flex;
-  justify-content: center;
-}
-    
 .column {
-  flex: 0 0 calc(33.33% - 10%); 
-  margin-left: 10%; 
+  float: left;
+  width: 20%;
+  margin-left: 11%;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -139,6 +135,12 @@ a:hover {
   line-height: 130%;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
+}
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Alatunniste */
@@ -182,11 +184,8 @@ a:hover {
     float: none;
     text-align: left;
   }
-  .row {
-    flex-wrap: wrap;
-  }
   .column {
-    flex: 0 0 95%;
+    width: 95%;
     margin-left: 5%;
   }
 }
