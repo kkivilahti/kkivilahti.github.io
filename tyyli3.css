@@ -185,9 +185,8 @@ a:hover {
     text-align: left;
   }
   .column {
-    width: 95%;
-    margin-left: 5%;
-    align-items: center;
+    width: 90%;
+    margin-left: 10%;
   }
 }
   
